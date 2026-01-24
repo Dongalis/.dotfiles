@@ -1,0 +1,33 @@
+#!/usr/bin/env bash
+set -euo pipefail
+
+DISPATCHER_CMD="$(basename "$0")"
+
+SUBCMD="${1:-}"
+shift || true
+
+if [[ -z "$SUBCMD" ]]; then
+  echo "Usage: dotfiles <command> [args...]"
+  exit 1
+fi
+
+if [[ "$SUBCMD" == "core" ]]; then
+  echo "dotfiles: unknown command '$SUBCMD'" >&2
+  exit 1
+fi
+
+CMD="$HOME/.local/lib/dotfiles/$SUBCMD.sh"
+
+if [[ ! -f "$CMD" ]]; then
+  echo "dotfiles: unknown command '$SUBCMD'" >&2
+  exit 1
+fi
+
+if [[ ! -f "$CMD" ]]; then
+  echo "dotfiles: unknown command '$SUBCMD'" >&2
+  exit 1
+fi
+
+export DISPATCHER_CMD SUBCMD
+
+exec "$CMD" "$@"

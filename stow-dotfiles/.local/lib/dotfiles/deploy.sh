@@ -1,13 +1,13 @@
 #!/usr/bin/env bash
 set -euo pipefail
 
-source ~/.dotfiles/stow-core.sh
+source ~/.local/lib/dotfiles/core.sh
 
 ALLOW_ADOPT_INTERACTIVE=false
 
 
 usage() {
-    echo "Usage: $0 [--adopt] [--allow-adopt]"
+    echo "Usage: $DISPATCHER_CMD $SUBCMD [--adopt] [--allow-adopt]"
     echo "Options:"
     echo "  --adopt           deploy all packages with --adopt"
     echo "  --allow-adopt     enable interactive retry prompt when stow fails"

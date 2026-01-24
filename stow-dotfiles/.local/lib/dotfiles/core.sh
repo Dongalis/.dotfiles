@@ -144,3 +144,38 @@ add_package_cmd() {
 
     echo "Added $package with command '$cmd' to $MAP_FILE"
 }
+
+check_git_repo() {
+    if [[ ! -d "$DOTFILES_DIR/.git" ]]; then
+        echo "Error: $DOTFILES_DIR is not a Git repository." >&2
+        return 1
+    fi
+}
+
+check_uncommitted_changes() {
+    if [[ -n "$(git -C "$DOTFILES_DIR" status --porcelain)" ]]; then
+        echo "⚠ Warning: You have uncommitted changes in your dotfiles repo!"
+        git -C "$DOTFILES_DIR" status --short
+        return 1
+    fi
+}
+
+fetch_updates() {
+    echo "Fetching updates from remote..."
+    git -C "$DOTFILES_DIR" fetch --all --prune
+}
+
+pull_updates() {
+    echo "Pulling latest changes..."
+    if ! git -C "$DOTFILES_DIR" pull --rebase; then
+        echo "❌ Error: Conflicts occurred during git pull --rebase!"
+        echo "Please resolve the conflicts manually."
+        return 1
+    fi
+}
+
+show_recent_commits() {
+    echo
+    echo "Latest commits:"
+    git -C "$DOTFILES_DIR" log -3 --oneline
+}

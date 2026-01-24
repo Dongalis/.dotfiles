@@ -1,12 +1,12 @@
 #!/usr/bin/env bash
 set -euo pipefail
 
-source ~/.dotfiles/stow-core.sh
+source ~/.local/lib/dotfiles/core.sh
 
 POSITIONAL=()
 
 usage() {
-    echo "Usage: $0 [OPTIONS] PACKAGE [FILES...]"
+    echo "Usage: $DISPATCHER_CMD $SUBCMD [OPTIONS] PACKAGE [FILES...]"
     echo "Options:"
     echo "  --cmd CMD         associate a command with the package"
     echo "  -h, --help        show this help message"
