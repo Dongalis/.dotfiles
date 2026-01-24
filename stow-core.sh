@@ -25,7 +25,7 @@ deploy_if_available() {
 
     echo "Deploying $package ${STOW_OPTS[*]}"
 
-    if stow "${STOW_OPTS[@]}" -t "$TARGET_DIR" "$package"; then
+    if stow "${STOW_OPTS[@]}" -t "$TARGET_DIR" "$package" --no-folding; then
         return 0
     fi
 
@@ -46,7 +46,7 @@ deploy_if_available() {
     case "$answer" in
         y|Y)
             echo "Retrying $package with --adopt..."
-            stow --adopt -t "$TARGET_DIR" "$package"
+            stow --adopt -t "$TARGET_DIR" "$package" --no-folding
             ;;
         *)
             echo "Skipping $package."
@@ -101,7 +101,7 @@ add_to_package() {
 
     done
 
-    stow --adopt -t "$TARGET_DIR" "$package"
+    stow --adopt -t "$TARGET_DIR" "$package" --no-folding
 }
 
 add_package_cmd() {
