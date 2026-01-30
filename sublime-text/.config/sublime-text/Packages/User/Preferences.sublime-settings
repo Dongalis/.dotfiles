@@ -13,6 +13,7 @@
 	"hardware_acceleration": "opengl",
 	"close_windows_when_empty": false,
 	"show_rel_path": true,
-	"ignored_packages": [],
 	"vintage_start_in_command_mode": true,
+	"relative_line_numbers": true,
+	"ignored_packages": [],
 }
