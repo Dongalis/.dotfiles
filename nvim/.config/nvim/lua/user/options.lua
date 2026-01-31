@@ -1,7 +1,3 @@
--- Leader Keys
-vim.g.mapleader = " "
--- vim.g.maplocalleader = " "  -- optional local leader
-
 -- Line Numbers & Display
 vim.opt.number = true
 vim.opt.relativenumber = true
