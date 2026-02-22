@@ -9,7 +9,7 @@ debug = false                   # Enable debug output
 global_argument_delimiter = "#" 
 exact_search_prefix = "'"
 
-theme = "default" 
+theme = "my-theme" 
 
 [shell]
 anchor_top = true
