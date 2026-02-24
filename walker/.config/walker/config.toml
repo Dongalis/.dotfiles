@@ -58,6 +58,7 @@ desktopapplications = 20
 files = 30
 runner = 50
 websearch = 10
+"menus:keybindings" = 1000
 
 [[providers.prefixes]]
 prefix = ";"

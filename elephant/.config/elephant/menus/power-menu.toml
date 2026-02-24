@@ -1,0 +1,14 @@
+name = "power-menu"
+name_pretty = "Power Menu"
+
+[[entries]]
+text = "Shutdown"
+actions = { "shutdown" = "hyprshutdown -t 'Shutting down...' --post-cmd 'shutdown -P 0'" }
+
+[[entries]]
+text = "Restart"
+actions = { "restart" = "hyprshutdown -t 'Restarting...' --post-cmd 'reboot'" }
+
+[[entries]]
+text = "Log Out"
+actions = { "logout" = "hyprshutdown -t 'Logging out...'" }
