@@ -126,16 +126,6 @@
       "signal": 7,
       "interval": 21600
   },
-
-
-
-
-
-
-
-
-
-
   "bluetooth": {
       "format": "",
       "format-off": "󰂲",
@@ -143,8 +133,18 @@
       "format-connected": "󰂱",
       "format-no-controller": "",
       "tooltip-format": "Devices connected: {num_connections}",
-      "on-click": "hyprctl dispatch exec \"[float; center; size 900 600] alacritty -e bluetui\""
+      "on-click": "walker --provider bluetooth"
   },
+
+
+
+
+
+
+
+
+
+
 
 
 
