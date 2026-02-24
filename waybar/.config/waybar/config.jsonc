@@ -118,6 +118,19 @@
           "critical": 10
       }
   },
+  "custom/update": {
+      "format": "",
+      "exec": "checkupdates) || (paru -Qu) || (yay -Qu)",
+      "on-click": "hyprctl dispatch exec \"[float; center; size 900 600] alacritty -e bash -c 'echo Update all packages; sudo pacman -Syu && (paru -Syu || yay -Syu ) && flatpak update; read -p \\\"Press Enter to close...\\\"'\"",
+      "tooltip-format": "Update available",
+      "signal": 7,
+      "interval": 21600
+  },
+
+
+
+
+
 
 
 
@@ -134,14 +147,6 @@
   },
 
 
-  "custom/update": {
-      "format": "",
-      "exec": "checkupdates",
-      "on-click": "omarchy-launch-floating-terminal-with-presentation omarchy-update",
-      "tooltip-format": "Update available",
-      "signal": 7,
-      "interval": 21600
-  },
 
 
 
