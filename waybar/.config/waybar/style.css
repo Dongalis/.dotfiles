@@ -93,3 +93,11 @@ tooltip {
 #custom-voxtype.recording {
   color: #a55555;
 }
+
+#workspaces {
+/*  min-width: 230px; */
+  min-width: 150px;
+}
+
+#custom-spotify {
+}
