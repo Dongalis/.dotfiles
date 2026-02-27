@@ -2,13 +2,17 @@ name = "power-menu"
 name_pretty = "Power Menu"
 
 [[entries]]
-text = "Shutdown"
-actions = { "shutdown" = "hyprshutdown -t 'Shutting down...' --post-cmd 'shutdown -P 0'" }
+text = "Lock"
+actions = { "lock" = "loginctl lock-session; pidof hyprlock || hyprlock; hyprctl dispatch dpms on" }
+
+[[entries]]
+text = "Log Out"
+actions = { "logout" = "hyprshutdown -t 'Logging out...'" }
 
 [[entries]]
 text = "Restart"
 actions = { "restart" = "hyprshutdown -t 'Restarting...' --post-cmd 'reboot'" }
 
 [[entries]]
-text = "Log Out"
-actions = { "logout" = "hyprshutdown -t 'Logging out...'" }
+text = "Shutdown"
+actions = { "shutdown" = "hyprshutdown -t 'Shutting down...' --post-cmd 'shutdown -P 0'" }
