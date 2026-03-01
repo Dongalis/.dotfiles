@@ -27,10 +27,14 @@ vim.opt.undodir = os.getenv("HOME") .. "/.vim/undodir"
 vim.opt.incsearch = true
 vim.opt.hlsearch = false
 
+-- Clipboard
+vim.opt.clipboard = ""   -- Vim uses its own internal clipboard
+
 -- Mouse & Colors
 vim.opt.mouse = ""           -- disable mouse
 vim.opt.termguicolors = true
 vim.opt.isfname:append("@-@")
 
 -- Performance
-vim.opt.updatetime = 50
+vim.opt.updatetime = 200
+vim.opt.lazyredraw = true
