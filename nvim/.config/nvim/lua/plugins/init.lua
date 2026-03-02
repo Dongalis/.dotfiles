@@ -14,7 +14,7 @@ vim.opt.rtp:prepend(lazypath)
 
 
 require("lazy").setup({
-    --{ "nvim-lualine/lualine.nvim", config = function() require("plugins.lualine") end },
+    { "neovim/nvim-lspconfig", config = function() end },
     { "catppuccin/nvim", name = "catppuccin", config = function() vim.cmd.colorscheme "catppuccin" end },
     { "nvim-telescope/telescope.nvim", config = function() require("plugins.telescope") end },
     { "nvim-treesitter/nvim-treesitter", run = ":TSUpdate", config = function() require("plugins.treesitter") end },
