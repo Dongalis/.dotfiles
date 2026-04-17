@@ -1,29 +1,14 @@
--- bootstrap Lazy.nvim
-local lazypath = vim.fn.stdpath("data") .. "/lazy/lazy.nvim"
-if not vim.loop.fs_stat(lazypath) then
-    vim.fn.system({
-        "git",
-        "clone",
-        "--filter=blob:none",
-        "https://github.com/folke/lazy.nvim.git",
-        "--branch=stable",
-        lazypath,
-    })
-end
-vim.opt.rtp:prepend(lazypath)
+local gh = function(x) return 'https://github.com/' .. x end
 
-
-require("lazy").setup({
-    { "neovim/nvim-lspconfig", config = function() end },
-    { "catppuccin/nvim", name = "catppuccin", config = function() vim.cmd.colorscheme "catppuccin" end },
-    { "nvim-telescope/telescope.nvim", config = function() require("plugins.telescope") end },
-    { "nvim-treesitter/nvim-treesitter", run = ":TSUpdate", config = function() require("plugins.treesitter") end },
-    { "mbbill/undotree", config = function() require("plugins.undotree") end },
-    { "tpope/vim-fugitive", config = function() require("plugins.undotree") end },
-}, {
-    install = { 
-        colorscheme = { "gruvbox" },
-        missing = true,
-    },
-    --checker = { enabled = true },  -- automatically check for plugin updates
+vim.pack.add({
+    { src = gh('catppuccin/nvim'), name = 'catppuccin' },
+--    { src = gh('nvim-treesitter/nvim-treesitter')},
+    { src = gh('mbbill/undotree') },
+    { src = gh('tpope/vim-fugitive') },
 })
+
+vim.cmd.colorscheme("catppuccin")
+
+--require("plugins.treesitter")
+require("plugins.undotree")
+require("plugins.vim-fugitive")
