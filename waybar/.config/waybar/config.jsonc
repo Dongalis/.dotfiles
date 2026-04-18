@@ -147,6 +147,7 @@
     "format": "{}",
     "return-type": "json",
     "on-click": "playerctl play-pause --player spotify",
+    "on-click-middle" : "~/.config/hypr/bin/disaptch-special-workplace.sh spotify music",
     "on-click-right": "playerctl next --player spotify" ,
     "on-scroll-up": "playerctl volume 0.04+ --player=spotify",
     "on-scroll-down": "playerctl volume 0.04- --player=spotify",
