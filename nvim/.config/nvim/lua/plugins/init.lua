@@ -5,6 +5,7 @@ vim.pack.add({
 --    { src = gh('nvim-treesitter/nvim-treesitter')},
     { src = gh('mbbill/undotree') },
     { src = gh('tpope/vim-fugitive') },
+    { src = gh('lewis6991/gitsigns.nvim') },
 })
 
 vim.cmd.colorscheme("catppuccin")
@@ -12,3 +13,5 @@ vim.cmd.colorscheme("catppuccin")
 --require("plugins.treesitter")
 require("plugins.undotree")
 require("plugins.vim-fugitive")
+require("plugins.gitsigns")
+
