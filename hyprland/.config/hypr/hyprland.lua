@@ -15,15 +15,15 @@
 ---------------------
 
 -- Set programs that you use
-local terminal    = "alacritty"
-local fileManager = "thunar"
-local menu        = "walker"
-local editor      = terminal .. " -e nvim"
-local browser = "firefox"
-local music = "flatpak run com.spotify.Client"
-local pass = "proton-pass --show"
-local notes = "obsidian"
-local screenshot_folder = "~/Pictures/Screenshots"
+terminal    = "alacritty"
+fileManager = "thunar"
+menu        = "walker"
+editor      = terminal .. " -e nvim"
+browser = "firefox"
+music = "flatpak run com.spotify.Client"
+pass = "proton-pass --show"
+notes = "obsidian"
+screenshot_folder = "~/Pictures/Screenshots"
 
 -----------------------
 ----- PERMISSIONS -----

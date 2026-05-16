@@ -7,7 +7,7 @@
 hl.monitor({
     output   = "DP-1",
     mode     = "preferred",
-    position = "1080x60",
+    position = "1080x260",
     scale    = "auto",
 })
 
@@ -16,6 +16,7 @@ hl.monitor({
     mode      = "preferred",
     position  = "0x0",
     scale     = "auto",
+    transform = 1,
 })
 
 hl.monitor({

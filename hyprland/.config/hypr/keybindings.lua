@@ -3,7 +3,7 @@
 -------------------
 
 -- See https://wiki.hypr.land/Configuring/Keywords/
-mainMod = "$mainMod" -- Sets "Windows" key as main modifier
+mainMod = "SUPER" -- Sets "Windows" key as main modifier
 
 -- Example binds, see https://wiki.hypr.land/Configuring/Binds/ for more
 
@@ -32,7 +32,7 @@ hl.bind(mainMod .. " + C", hl.dsp.exec_cmd(editor)) -- remove?
 hl.bind(mainMod .. " + E", hl.dsp.exec_cmd(fileManager))
 
 -- Application dedicated workspaces
-hl.bind(mainMod .. " + SHIFT + P", hl.dsp.exec_cmd("~/.config/hypr/bin/disaptch-special-workplace.sh "Proton Pass" pass"))
+hl.bind(mainMod .. " + SHIFT + P", hl.dsp.exec_cmd("~/.config/hypr/bin/disaptch-special-workplace.sh 'Proton Pass' pass"))
 hl.bind(mainMod .. " + M", hl.dsp.exec_cmd("~/.config/hypr/bin/disaptch-special-workplace.sh spotify music"))
 hl.bind(mainMod .. " + N", hl.dsp.exec_cmd("~/.config/hypr/bin/disaptch-special-workplace.sh obsidian notes"))
 -- hl.bind(mainMod .. " + Alt + T", hl.dsp.exec_cmd("hyde-shell pypr toggle console"))
@@ -56,13 +56,13 @@ hl.bind(mainMod .. " + PRINT", hl.dsp.exec_cmd("pkill hyprpicker || hyprpicker -
 -- Notifications
 hl.bind(mainMod .. " + COMMA", hl.dsp.exec_cmd("makoctl dismiss"))
 hl.bind(mainMod .. " + SHIFT + COMMA", hl.dsp.exec_cmd("makoctl dismiss --all"))
-hl.bind(mainMod .. " + CTRL + COMMA", hl.dsp.exec_cmd("makoctl mode -t do-not-disturb && makoctl mode | grep -q 'do-not-disturb' && notify-send "Silenced notifications" || notify-send "Enabled notifications""))
+hl.bind(mainMod .. " + CTRL + COMMA", hl.dsp.exec_cmd("makoctl mode -t do-not-disturb && makoctl mode | grep -q 'do-not-disturb' && notify-send 'Silenced notifications' || notify-send 'Enabled notifications'"))
 hl.bind(mainMod .. " + ALT + COMMA", hl.dsp.exec_cmd("makoctl invoke"))
 hl.bind(mainMod .. " + SHIFT + ALT + COMMA", hl.dsp.exec_cmd("makoctl restore"))
 
 -- Full screen
-hl.bind(mainMod .. " + F11", hl.dsp.fullscrean({mode = "fullscreen" , action = "toogle"}))
-hl.bind(mainMod .. " + SHIFT + F11", hl.dsp.fullscrean({mode = "maximized" , action = "toogle"}))
+hl.bind(mainMod .. " + F11", hl.dsp.window.fullscreen({mode = "fullscreen" , action = "toggle"}))
+hl.bind(mainMod .. " + SHIFT + F11", hl.dsp.window.fullscreen({mode = "maximized" , action = "toggle"}))
 
 -- enable / disable arrow navigation
 local enableArrowNavigation = true
@@ -107,8 +107,6 @@ for dir, cfg in pairs(directions) do
         hl.bind(mainMod .. " + " .. key, hl.dsp.focus({ direction = dir }))
         -- move window
         hl.bind(mainMod .. " + SHIFT + " .. key, hl.dsp.window.move({ direction = dir }))
-        -- move workspace
-        hl.bind(mainMod .. " + SHIFT + ALT + " .. key, hl.dsp.workspace.move({ direction = dir }))
         -- group move
         hl.bind(mainMod .. " + ALT + " .. key, hl.dsp.window.move({ into_or_create_group = dir }))
         -- resize window
@@ -118,10 +116,10 @@ end
 
 -- Toggle groups
 hl.bind(mainMod .. " + G", hl.dsp.group.toggle())
-hl.bind(mainMod .. " + ALT + G", hl.dsp.window.move( out_of_group = true))
+hl.bind(mainMod .. " + ALT + G", hl.dsp.window.move({ out_of_group = true }))
 
 -- Navigate a single set of grouped windows
-hl.bind(mainMod .. " + ALT + TAB", hl.dsp.window.next())
+hl.bind(mainMod .. " + ALT + TAB", hl.dsp.group.next())
 hl.bind(mainMod .. " + ALT + SHIFT + TAB", hl.dsp.group.prev())
 
 hl.bind(mainMod .. " + ALT + mouse_down", hl.dsp.group.next())
@@ -135,14 +133,16 @@ for i = 1, 10 do
     hl.bind(mainMod .. " + SHIFT + " .. key,     hl.dsp.window.move({ workspace = i }))
     -- Move active window silently to a workspace with $mainMod + SHIFT + ALT + [1-9; 0]
     hl.bind(mainMod .. " + SHIFT + ALT + " .. key,     hl.dsp.window.move({ workspace = i, follow = false }))
+    -- Switch to workspace on current monitor
+    hl.bind(mainMod .. " + CTRL + " .. key,     hl.dsp.focus({ workspace = i , on_current_monitor = true}))
     -- Activate window in a group by number
-    hl.bind(mainMod .. " + ALT + " .. key,     hl.dsp.group.active({ intex = i }))
+    hl.bind(mainMod .. " + ALT + " .. key,     hl.dsp.group.active({ index = i }))
 end
 
 -- Scratchpad special workspace
 hl.bind(mainMod .. " + Z",         hl.dsp.workspace.toggle_special("scratchpad"))
 hl.bind(mainMod .. " + SHIFT + Z", hl.dsp.window.move({ workspace = "special:scratchpad" }))
-hl.bind(mainMod .. " + SHIFT + ALT + Z", hl.dsp.window.move({ workspace = "special:scratchpad"i,  follow = false }))
+hl.bind(mainMod .. " + SHIFT + ALT + Z", hl.dsp.window.move({ workspace = "special:scratchpad",  follow = false }))
 
 -- Scroll through existing workspaces with mainMod + scroll
 hl.bind(mainMod .. " + mouse_down", hl.dsp.focus({ workspace = "e+1" }))
@@ -154,7 +154,7 @@ hl.bind(mainMod .. " + mouse:273", hl.dsp.window.resize(), { mouse = true })
 
 -- TAB between workspaces
 hl.bind(mainMod .. " + TAB", hl.dsp.focus({ workspace = "e+1" }))
-hl.bind(mainMod .. " SHIFT + TAB", hl.dsp.focus({ workspace = "e-1" }))
+hl.bind(mainMod .. " + SHIFT + TAB", hl.dsp.focus({ workspace = "e-1" }))
 -- bindd	= $mainMod CTRL, TAB, Former workspace, workspace, previous
 
 -- Cycle through applications on active workspace
@@ -191,7 +191,7 @@ hl.bind(mainMod .. " + CTRL + T", hl.dsp.exec_cmd("[float; center; size 900 600]
 ---  Misc  ---
 --------------
 hl.bind("XF86Calculator", hl.dsp.exec_cmd(menu .. " --provider calc"))
-hl.bind(mainMod .. " + Alt + G", hl.dsp.exec_cmd("~/.config/hypr/bin/gamemode.sh obsidian notes"))
+hl.bind(mainMod .. " + ALT + G", hl.dsp.exec_cmd("~/.config/hypr/bin/gamemode.sh obsidian notes"))
 -- hl.bind(mainMod .. " + XF86AudioMute", hl.dsp.exec_cmd("switchouutputdevice"))
 -- hl.bind(mainMod .. " + O", hl.dsp.exec_cmd("omarchy-hyprland-window-pop"))
 -- binddl = $mainMod, K, toggle keyboard layout , exec, hyde-shell keyboardswitch -- switch keyboard layout
