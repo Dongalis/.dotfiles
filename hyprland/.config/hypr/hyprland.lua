@@ -177,9 +177,27 @@ hl.config({
 })
 
 require("envs") -- Enviroment configuration
-require("monitors") -- Monitor configuration
 require("autostart") -- Autostart configuration
 require("keybindings") -- Keyboard shortcuts
 require("input") -- Keybord/Mouse/Touchpad configuraiton
 require("windowrules") -- Window rules and workscpaces configuration
 require("workspacerules") -- Window rules and workscpaces configuration
+
+local function hostname()
+    local h = io.popen("hostname")
+    local name = h:read("*a"):gsub("%s+", "")
+    h:close()
+    return name
+end
+
+local function module_exists(name)
+    local path = package.searchpath(name, package.path)
+    return path ~= nil
+end
+
+local host = hostname()
+
+if module_exists("monitors." .. host) then
+    require("monitors." .. host)
+end
+require("monitors.default")
