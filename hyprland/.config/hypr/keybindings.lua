@@ -7,8 +7,8 @@ mainMod = "SUPER" -- Sets "Windows" key as main modifier
 
 -- Example binds, see https://wiki.hypr.land/Configuring/Binds/ for more
 
-hl.bind(mainMod .. " + Delete", hl.dsp.exec_cmd(menu .. "--provider menus:power-menu"))
-hl.bind("XF86PowerOff", hl.dsp.exec_cmd(menu .. "--provider menus:power-menu"), {locked = true})
+hl.bind(mainMod .. " + Delete", hl.dsp.exec_cmd(menu .. " --provider menus:power-menu"))
+hl.bind("XF86PowerOff", hl.dsp.exec_cmd(menu .. " --provider menus:power-menu"), {locked = true})
 
 hl.bind(mainMod .. " + R", hl.dsp.exec_cmd(menu))
 local closeWindowBind = hl.bind(mainMod .. " + SHIFT + Q", hl.dsp.window.close())
