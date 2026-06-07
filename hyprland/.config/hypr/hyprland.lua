@@ -9,6 +9,12 @@
 -- Create your files separately and then require them like this:
 -- require("myColors")
 
+function hostname()
+    local h = io.popen("hostname")
+    local name = h:read("*a"):gsub("%s+", "")
+    h:close()
+    return name
+end
 
 ---------------------
 ---- MY PROGRAMS ----
@@ -144,16 +150,10 @@ require("autostart") -- Autostart configuration
 require("envs") -- Enviroment configuration
 require("input") -- Keybord/Mouse/Touchpad configuraiton
 require("keybindings") -- Keyboard shortcuts
+require("monitors.default")
 require("permissions") -- Window rules and workscpaces configuration
 require("windowrules") -- Window rules and workscpaces configuration
-require("workspacerules") -- Window rules and workscpaces configuration
-
-local function hostname()
-    local h = io.popen("hostname")
-    local name = h:read("*a"):gsub("%s+", "")
-    h:close()
-    return name
-end
+require("workspacerules.default") -- Window rules and workscpaces configuration
 
 local function module_exists(name)
     local path = package.searchpath(name, package.path)
@@ -165,4 +165,7 @@ local host = hostname()
 if module_exists("monitors." .. host) then
     require("monitors." .. host)
 end
-require("monitors.default")
+
+if module_exists("workspacerules." .. host) then
+    require("workspacerules." .. host)
+end
