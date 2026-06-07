@@ -50,22 +50,22 @@
   "cpu": {
       "interval": 5,
       "format": "󰍛",
-      "on-click": "hyprctl dispatch exec \"[float; center; size 900 600] alacritty -e htop\"",
-      "on-click-right": "alacritty"
+      "on-click": "hyprctl dispatch 'hl.dsp.exec_cmd(\"alacritty -e htop\", {float = true, center = true, size = {900, 600}})'",
+      "on-click-right": "alacritty",
   },
   "clock": {
       "format": "{:L%A %H:%M}",
       "format-alt": "{:L%d %B W%V %Y}",
       "tooltip": false,
-      "on-click-right": "walker --provider todo"
+      "on-click-right": "walker --provider todo",
   },
   "group/tray-expander": {
       "orientation": "inherit",
       "drawer": {
           "transition-duration": 600,
-          "children-class": "tray-group-item"
+          "children-class": "tray-group-item",
       },
-      "modules": ["custom/expand-icon", "tray"]
+      "modules": ["custom/expand-icon", "tray"],
   },
   "custom/expand-icon": {
       "format": "",
@@ -73,15 +73,15 @@
       "on-scroll-up": "",
       "on-scroll-down": "",
       "on-scroll-left": "",
-      "on-scroll-right": ""
+      "on-scroll-right": "",
   },
   "tray": {
       "icon-size": 12,
-      "spacing": 17
+      "spacing": 17,
   },
   "pulseaudio": {
       "format": "{icon}",
-      "on-click": "hyprctl dispatch exec \"[float; center; size 900 600] alacritty -e wiremix\"",
+      "on-click": "hyprctl dispatch 'hl.dsp.exec_cmd(\"alacritty -e wiremix\", {float = true, center = true, size = {900, 600}})'",
       "on-click-right": "pamixer -t",
       "tooltip-format": "Playing at {volume}%",
       "scroll-step": 4,
@@ -89,8 +89,8 @@
       "format-icons": {
           "headphone": "",
           "headset": "",
-          "default": ["", "", ""]
-      }
+          "default": ["", "", ""],
+      },
   },
   "network": {
     "format-icons": ["󰤯", "󰤟", "󰤢", "󰤥", "󰤨"],
@@ -103,8 +103,8 @@
     "tooltip-format-disconnected": "Disconnected",
     "interval": 3,
     "spacing": 1,
-    "on-click": "hyprctl dispatch exec \"[float; center; size 900 600] alacritty -e impala\"",
-    "on-click-right": "hyprctl dispatch exec \"[float; center; size 900 600] alacritty -e nmtui\""
+    "on-click": "hyprctl dispatch 'hl.dsp.exec_cmd(\"alacritty -e impala\", {float = true, center = true, size = {900, 600}})'",
+    "on-click-right": "hyprctl dispatch 'hl.dsp.exec_cmd(\"alacritty -e nmtui\", {float = true, center = true, size = {900, 600}})'",
   },
   "battery": {
     "format": "{capacity}% {icon}",
@@ -113,7 +113,7 @@
     "format-plugged": "",
     "format-icons": {
       "charging": ["󰢜", "󰂆", "󰂇", "󰂈", "󰢝", "󰂉", "󰢞", "󰂊", "󰂋", "󰂅"],
-      "default": ["󰁺", "󰁻", "󰁼", "󰁽", "󰁾", "󰁿", "󰂀", "󰂁", "󰂂", "󰁹"]
+      "default": ["󰁺", "󰁻", "󰁼", "󰁽", "󰁾", "󰁿", "󰂀", "󰂁", "󰂂", "󰁹"],
     },
     "format-full": "󰂅",
     "tooltip-format-discharging": "{power:>1.0f}W↓ {capacity}%",
@@ -122,16 +122,16 @@
     "on-click": "walker --provider menus:power-menu",
     "states": {
       "warning": 20,
-      "critical": 10
-    }
+      "critical": 10,
+    },
   },
   "custom/update": {
     "format": "",
     "exec": "(checkupdates) || (paru -Qu) || (yay -Qu)",
-    "on-click": "hyprctl dispatch exec \"[float; center; size 900 600] alacritty -e bash -c 'echo Update all packages; sudo pacman -Syu && (paru -Syu || yay -Syu ) && flatpak update; read -p \\\"Press Enter to close...\\\"'\"",
+    "on-click": "hyprctl dispatch 'hl.dsp.exec_cmd(\"alacritty -e bash -c \\\"echo Update all packages; sudo pacman -Syu && (paru -Syu || yay -Syu ) && flatpak update; read -p \\\\\\\"Press Enter to close...\\\\\\\"\\\"\",{float = true, center = true, size = {900, 600}})'",
     "tooltip-format": "Update available",
     "signal": 7,
-    "interval": 21600
+    "interval": 21600,
   },
   "bluetooth": {
     "format": "",
@@ -140,7 +140,7 @@
     "format-connected": "󰂱",
     "format-no-controller": "",
     "tooltip-format": "Devices connected: {num_connections}",
-    "on-click": "walker --provider bluetooth"
+    "on-click": "walker --provider bluetooth",
   },
   "custom/spotify": {
     "exec": "/usr/bin/python3 ~/.config/waybar/modules/mediaplayer.py --player spotify",
@@ -153,7 +153,7 @@
     "on-scroll-down": "playerctl volume 0.04- --player=spotify",
     "spacing": 0,
     "margin": 0,
-    "max-length": 45
+    "max-length": 45,
   },
   "power-profiles-daemon": {
     "format": "{icon}",
@@ -163,16 +163,16 @@
       "default": "",
       "performance": "",
       "balanced": "",
-      "power-saver": ""
-    }
+      "power-saver": "",
+    },
   },
 "idle_inhibitor": {
 	"format": "{icon}",
 	"format-icons": {
 		"activated": "",
-		"deactivated": ""
+		"deactivated": "",
 	},
-	"timeout": 30.5
+	"timeout": 30.5,
 },
 "hyprland/submap": {
 },
@@ -186,7 +186,7 @@
     "icon-spacing": 4,
     "icon-size": 20,
     "tooltip": true,
-    "tooltip-format": "Games running: {count}"
+    "tooltip-format": "Games running: {count}",
 },
 "privacy": {
 	"icon-spacing": 4,
@@ -196,17 +196,17 @@
 		{
 			"type": "screenshare",
 			"tooltip": true,
-			"tooltip-icon-size": 24
+			"tooltip-icon-size": 24,
 		},
 		{
 			"type": "audio-in",
 			"tooltip": true,
-			"tooltip-icon-size": 24
-		}
+			"tooltip-icon-size": 24,
+		},
 	],
 	"ignore-monitor": true,
 	"ignore": [
-	]
+	],
 },
 
 
