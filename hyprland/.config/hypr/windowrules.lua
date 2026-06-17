@@ -17,13 +17,14 @@ hl.window_rule({
 
 -- Oppacity config
 hl.window_rule({ match = {class = ".*"}, opacity = "0.8 0.6 1"})
+
 hl.window_rule({ match = {class = "^org.kde.pix$"}, opacity = "1 0.8 1"})
 hl.window_rule({ match = {class = "^com.github.rafostar.Clapper$"}, opacity = "1 0.8 1"})
+hl.window_rule({ match = {class = "^firefox$", title = "^Picture-in-Picture$"}, opacity = "1 1 1"})
 hl.window_rule({ match = {class = "^firefox$"}, opacity = "1 0.8 1"})
 hl.window_rule({ match = {class = "^MuseScore4$"}, opacity = "1 0.8 1"})
-hl.window_rule({ match = {class = "^firefox$", title = "^Picture-in-Picture$"}, opacity = "1 1 1"})
-hl.window_rule({ match = {class = "^steam$"}, opacity = "1 0.6 1"})
 hl.window_rule({ match = {class = "^steam$", title = "^$"}, opacity = "1 0.8 1"})
+hl.window_rule({ match = {class = "^steam$"}, opacity = "1 0.6 1"})
 
 hl.window_rule({ match = {workspace = "10"}, opacity = "1 1 1"})
 
