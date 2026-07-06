@@ -15,18 +15,26 @@ hl.window_rule({
     suppress_event = "maximize",
 })
 
+local OPQ = 1.0
+local MID = 0.8
+local DIM = 0.6
+local LOW = 0.4
+
 -- Oppacity config
-hl.window_rule({ match = {class = ".*"}, opacity = "0.8 0.6 1"})
+-- default oppacity
+hl.window_rule({ match = {class = ".*"}, opacity = ("%g %g %g"):format(MID, DIM, OPQ)})
 
-hl.window_rule({ match = {class = "^org.kde.pix$"}, opacity = "1 0.8 1"})
-hl.window_rule({ match = {class = "^com.github.rafostar.Clapper$"}, opacity = "1 0.8 1"})
-hl.window_rule({ match = {class = "^firefox$", title = "^Picture-in-Picture$"}, opacity = "1 1 1"})
-hl.window_rule({ match = {class = "^firefox$"}, opacity = "1 0.8 1"})
-hl.window_rule({ match = {class = "^MuseScore4$"}, opacity = "1 0.8 1"})
-hl.window_rule({ match = {class = "^steam$", title = "^$"}, opacity = "1 0.8 1"})
-hl.window_rule({ match = {class = "^steam$"}, opacity = "1 0.6 1"})
+-- window oppacity
+hl.window_rule({ match = {class = "^org.kde.pix$"}                              , opacity = ("%g %g %g"):format(OPQ, MID, OPQ)})
+hl.window_rule({ match = {class = "^com.github.rafostar.Clapper$"}              , opacity = ("%g %g %g"):format(OPQ, MID, OPQ)})
+hl.window_rule({ match = {class = "^firefox$", title = "^Picture-in-Picture$"}  , opacity = ("%g %g %g"):format(OPQ, OPQ, OPQ)})
+hl.window_rule({ match = {class = "^firefox$"}                                  , opacity = ("%g %g %g"):format(OPQ, MID, OPQ)})
+hl.window_rule({ match = {class = "^MuseScore4$"}                               , opacity = ("%g %g %g"):format(OPQ, MID, OPQ)})
+hl.window_rule({ match = {class = "^steam$", title = "^$"}                      , opacity = ("%g %g %g"):format(OPQ, MID, OPQ)})
+hl.window_rule({ match = {class = "^steam$"}                                    , opacity = ("%g %g %g"):format(OPQ, DIM, OPQ)})
 
-hl.window_rule({ match = {workspace = "10"}, opacity = "1 1 1"})
+--workspace oppacity
+hl.window_rule({ match = {workspace = "10"}                                     , opacity = ("%g %g %g"):format(OPQ, OPQ, OPQ)})
 
 hl.window_rule({
     -- Fix some dragging issues with XWayland

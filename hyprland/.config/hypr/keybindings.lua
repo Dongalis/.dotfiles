@@ -28,7 +28,7 @@ hl.bind(mainMod .. " + Return", hl.dsp.exec_cmd(terminal)) -- remove?
 hl.bind(mainMod .. " + T", hl.dsp.exec_cmd(terminal)) -- remove?
 hl.bind(mainMod .. " + ALT + T", hl.dsp.exec_cmd(editor))
 hl.bind(mainMod .. " + C", hl.dsp.exec_cmd(editor)) -- remove?
--- hl.bind(mainMod .. " + SHIFT + C", hl.dsp.exec_cmd(markdownEditor)) -- REMOVE?
+hl.bind(mainMod .. " + SHIFT + C", hl.dsp.exec_cmd(markdown_editor)) -- remove?
 hl.bind(mainMod .. " + E", hl.dsp.exec_cmd(fileManager))
 
 -- Application dedicated workspaces

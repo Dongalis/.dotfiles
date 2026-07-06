@@ -30,6 +30,7 @@ music = "flatpak run com.spotify.Client"
 pass = "proton-pass --show"
 notes = "obsidian"
 screenshot_folder = "~/Pictures/Screenshots"
+markdown_editor = "typora"
 
 -----------------------
 ---- LOOK AND FEEL ----
