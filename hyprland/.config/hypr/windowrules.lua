@@ -27,11 +27,11 @@ hl.window_rule({ match = {class = ".*"}, opacity = ("%g %g %g"):format(MID, DIM,
 -- window oppacity
 hl.window_rule({ match = {class = "^org.kde.pix$"}                              , opacity = ("%g %g %g"):format(OPQ, MID, OPQ)})
 hl.window_rule({ match = {class = "^com.github.rafostar.Clapper$"}              , opacity = ("%g %g %g"):format(OPQ, MID, OPQ)})
-hl.window_rule({ match = {class = "^firefox$", title = "^Picture-in-Picture$"}  , opacity = ("%g %g %g"):format(OPQ, OPQ, OPQ)})
-hl.window_rule({ match = {class = "^firefox$"}                                  , opacity = ("%g %g %g"):format(OPQ, MID, OPQ)})
 hl.window_rule({ match = {class = "^MuseScore4$"}                               , opacity = ("%g %g %g"):format(OPQ, MID, OPQ)})
 hl.window_rule({ match = {class = "^steam$", title = "^$"}                      , opacity = ("%g %g %g"):format(OPQ, MID, OPQ)})
 hl.window_rule({ match = {class = "^steam$"}                                    , opacity = ("%g %g %g"):format(OPQ, DIM, OPQ)})
+hl.window_rule({ match = {class = "^firefox$"}                                  , opacity = ("%g %g %g"):format(OPQ, MID, OPQ)})
+hl.window_rule({ match = {class = "^firefox$", title = "^Picture-in-Picture$"}  , opacity = ("%g %g %g"):format(OPQ, OPQ, OPQ)})
 
 --workspace oppacity
 hl.window_rule({ match = {workspace = "10"}                                     , opacity = ("%g %g %g"):format(OPQ, OPQ, OPQ)})
