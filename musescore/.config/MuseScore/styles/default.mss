@@ -1,15 +1,15 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<museScore version="4.60">
+<museScore version="4.70">
   <Style>
-    <pageWidth>8.5</pageWidth>
-    <pageHeight>11</pageHeight>
-    <pagePrintableWidth>7.3189</pagePrintableWidth>
-    <pageEvenLeftMargin>0.590551</pageEvenLeftMargin>
-    <pageOddLeftMargin>0.590551</pageOddLeftMargin>
-    <pageEvenTopMargin>0.590551</pageEvenTopMargin>
-    <pageEvenBottomMargin>0.590551</pageEvenBottomMargin>
-    <pageOddTopMargin>0.590551</pageOddTopMargin>
-    <pageOddBottomMargin>0.590551</pageOddBottomMargin>
+    <pageWidth>8.27</pageWidth>
+    <pageHeight>11.69</pageHeight>
+    <pagePrintableWidth>7.8763</pagePrintableWidth>
+    <pageEvenLeftMargin>0.19685</pageEvenLeftMargin>
+    <pageOddLeftMargin>0.19685</pageOddLeftMargin>
+    <pageEvenTopMargin>0.393701</pageEvenTopMargin>
+    <pageEvenBottomMargin>0.393701</pageEvenBottomMargin>
+    <pageOddTopMargin>0.393701</pageOddTopMargin>
+    <pageOddBottomMargin>0.393701</pageOddBottomMargin>
     <pageTwosided>1</pageTwosided>
     <staffUpperBorder>7</staffUpperBorder>
     <staffLowerBorder>7</staffLowerBorder>
@@ -43,7 +43,7 @@
     <lyricsDashForce>1</lyricsDashForce>
     <lyricsDashFirstAndLastGapAreHalf>1</lyricsDashFirstAndLastGapAreHalf>
     <lyricsAlignVerseNumber>1</lyricsAlignVerseNumber>
-    <lyricsLineThickness>0.3</lyricsLineThickness>
+    <lyricsLineThickness>0.1</lyricsLineThickness>
     <lyricsMelismaAlign>left,baseline</lyricsMelismaAlign>
     <lyricsMelismaPad>0.2</lyricsMelismaPad>
     <lyricsDashPad>0.05</lyricsDashPad>
@@ -57,7 +57,7 @@
     <lyricsLimitDashCount>0</lyricsLimitDashCount>
     <lyricsMaxDashCount>1</lyricsMaxDashCount>
     <lyricsCenterDashedSyllables>0</lyricsCenterDashedSyllables>
-    <lyricsOddFontFace>MuseJazz Text</lyricsOddFontFace>
+    <lyricsOddFontFace>Edwin</lyricsOddFontFace>
     <lyricsOddFontSize>10</lyricsOddFontSize>
     <lyricsOddLineSpacing>1</lyricsOddLineSpacing>
     <lyricsOddFontSpatiumDependent>1</lyricsOddFontSpatiumDependent>
@@ -71,7 +71,7 @@
     <lyricsOddFrameFgColor r="0" g="0" b="0" a="255"/>
     <lyricsOddFrameBgColor r="255" g="255" b="255" a="0"/>
     <lyricsOddPosition>center</lyricsOddPosition>
-    <lyricsEvenFontFace>MuseJazz Text</lyricsEvenFontFace>
+    <lyricsEvenFontFace>Edwin</lyricsEvenFontFace>
     <lyricsEvenFontSize>10</lyricsEvenFontSize>
     <lyricsEvenLineSpacing>1</lyricsEvenLineSpacing>
     <lyricsEvenFontSpatiumDependent>1</lyricsEvenFontSpatiumDependent>
@@ -95,13 +95,13 @@
     <paddingToNotationAbove>2</paddingToNotationAbove>
     <paddingToNotationBelow>2</paddingToNotationBelow>
     <minMeasureWidth>8</minMeasureWidth>
-    <barWidth>0.3</barWidth>
-    <doubleBarWidth>0.3</doubleBarWidth>
-    <endBarWidth>0.6</endBarWidth>
-    <doubleBarDistance>0.6</doubleBarDistance>
-    <endBarDistance>0.75</endBarDistance>
-    <repeatBarlineDotSeparation>0.02</repeatBarlineDotSeparation>
-    <repeatBarTips>1</repeatBarTips>
+    <barWidth>0.18</barWidth>
+    <doubleBarWidth>0.18</doubleBarWidth>
+    <endBarWidth>0.55</endBarWidth>
+    <doubleBarDistance>0.37</doubleBarDistance>
+    <endBarDistance>0.37</endBarDistance>
+    <repeatBarlineDotSeparation>0.37</repeatBarlineDotSeparation>
+    <repeatBarTips>0</repeatBarTips>
     <startBarlineSingle>0</startBarlineSingle>
     <startBarlineMultiple>1</startBarlineMultiple>
     <maskBarlinesForText>1</maskBarlinesForText>
@@ -117,6 +117,10 @@
     <dividerRightSym>systemDivider</dividerRightSym>
     <dividerRightX>0</dividerRightX>
     <dividerRightY>0</dividerRightY>
+    <dividerLeftAlignToSystemBarline>1</dividerLeftAlignToSystemBarline>
+    <dividerRightAlignToSystemBarline>1</dividerRightAlignToSystemBarline>
+    <dividerLeftSize>1</dividerLeftSize>
+    <dividerRightSize>1</dividerRightSize>
     <clefLeftMargin>0.75</clefLeftMargin>
     <keysigLeftMargin>0.5</keysigLeftMargin>
     <ambitusMargin>0.5</ambitusMargin>
@@ -154,10 +158,9 @@
     <timeSigAcrossNumDist>0.1</timeSigAcrossNumDist>
     <timeSigAcrossY>0</timeSigAcrossY>
     <useStraightNoteFlags>0</useStraightNoteFlags>
-    <stemWidth>0.2</stemWidth>
+    <stemWidth>0.1</stemWidth>
     <shortenStem>1</shortenStem>
     <stemLength>3.5</stemLength>
-    <stemLengthSmall>2.25</stemLengthSmall>
     <shortStemStartLocation>1</shortStemStartLocation>
     <shortestStem>2.5</shortestStem>
     <combineVoice>1</combineVoice>
@@ -174,9 +177,9 @@
     <mrNumberSeriesWithParentheses>1</mrNumberSeriesWithParentheses>
     <oneMeasureRepeatShow1>0</oneMeasureRepeatShow1>
     <fourMeasureRepeatShowExtenders>0</fourMeasureRepeatShowExtenders>
-    <staffLineWidth>0.1</staffLineWidth>
-    <ledgerLineWidth>0.2</ledgerLineWidth>
-    <ledgerLineLength>0.2</ledgerLineLength>
+    <staffLineWidth>0.11</staffLineWidth>
+    <ledgerLineWidth>0.16</ledgerLineWidth>
+    <ledgerLineLength>0.33</ledgerLineLength>
     <stemSlashPosition>2</stemSlashPosition>
     <stemSlashAngle>40</stemSlashAngle>
     <stemSlashThickness>0.125</stemSlashThickness>
@@ -219,8 +222,8 @@
     <hairpinLinePosBelow x="0" y="2"/>
     <hairpinHeight>1.15</hairpinHeight>
     <hairpinContHeight>0.5</hairpinContHeight>
-    <hairpinLineWidth>0.2</hairpinLineWidth>
-    <hairpinFontFace>MuseJazz Text</hairpinFontFace>
+    <hairpinLineWidth>0.12</hairpinLineWidth>
+    <hairpinFontFace>Edwin</hairpinFontFace>
     <hairpinFontSize>10</hairpinFontSize>
     <hairpinLineSpacing>1</hairpinLineSpacing>
     <hairpinFontSpatiumDependent>1</hairpinFontSpatiumDependent>
@@ -245,15 +248,16 @@
     <hairpinLineLineStyle>dashed</hairpinLineLineStyle>
     <hairpinLineDashLineLen>6</hairpinLineDashLineLen>
     <hairpinLineDashGapLen>9</hairpinLineDashGapLen>
+    <hairpinOffset x="0" y="0"/>
     <pedalPlacement>1</pedalPlacement>
     <pedalPosAbove x="0" y="-1"/>
     <pedalPosBelow x="0" y="2.5"/>
-    <pedalLineWidth>0.2</pedalLineWidth>
+    <pedalLineWidth>0.11</pedalLineWidth>
     <pedalLineStyle>solid</pedalLineStyle>
     <pedalDashLineLen>4</pedalDashLineLen>
     <pedalDashGapLen>4</pedalDashGapLen>
     <pedalHookHeight>1.2</pedalHookHeight>
-    <pedalFontFace>MuseJazz Text</pedalFontFace>
+    <pedalFontFace>Edwin</pedalFontFace>
     <pedalFontSize>10</pedalFontSize>
     <pedalLineSpacing>1</pedalLineSpacing>
     <pedalFontSpatiumDependent>1</pedalFontSpatiumDependent>
@@ -274,6 +278,7 @@
     <pedalContinueHookText></pedalContinueHookText>
     <pedalEndText></pedalEndText>
     <pedalRosetteEndText>&lt;sym&gt;keyboardPedalUp&lt;/sym&gt;</pedalRosetteEndText>
+    <pedalOffset x="0" y="0"/>
     <trillPlacement>0</trillPlacement>
     <trillPosAbove x="0" y="-0.5"/>
     <trillPosBelow x="0" y="2"/>
@@ -284,8 +289,8 @@
     <minHarmonyDistance>0.5</minHarmonyDistance>
     <harmonyHarmonyDistance>0.5</harmonyHarmonyDistance>
     <maxHarmonyBarDistance>3</maxHarmonyBarDistance>
-    <maxChordShiftAbove>3</maxChordShiftAbove>
-    <maxChordShiftBelow>3</maxChordShiftBelow>
+    <maxChordShiftAbove>0</maxChordShiftAbove>
+    <maxChordShiftBelow>0</maxChordShiftBelow>
     <harmonyPlacement>0</harmonyPlacement>
     <romanNumeralPlacement>1</romanNumeralPlacement>
     <nashvilleNumberPlacement>0</nashvilleNumberPlacement>
@@ -294,14 +299,14 @@
     <harmonyDuration>0</harmonyDuration>
     <chordSymbolAPosAbove x="0" y="-2.5"/>
     <chordSymbolAPosBelow x="0" y="3.5"/>
-    <chordSymbolBPosAbove x="0" y="-5.5"/>
+    <chordSymbolBPosAbove x="0" y="-5"/>
     <chordSymbolBPosBelow x="0" y="3.5"/>
     <romanNumeralPosAbove x="0" y="-2.5"/>
     <romanNumeralPosBelow x="0" y="3.5"/>
     <nashvilleNumberPosAbove x="0" y="-2.5"/>
     <nashvilleNumberPosBelow x="0" y="3.5"/>
-    <chordSymbolAFontFace>MuseJazz Text</chordSymbolAFontFace>
-    <chordSymbolAFontSize>15</chordSymbolAFontSize>
+    <chordSymbolAFontFace>Edwin</chordSymbolAFontFace>
+    <chordSymbolAFontSize>10</chordSymbolAFontSize>
     <chordSymbolALineSpacing>1</chordSymbolALineSpacing>
     <chordSymbolAFontSpatiumDependent>1</chordSymbolAFontSpatiumDependent>
     <chordSymbolAFontStyle>0</chordSymbolAFontStyle>
@@ -313,8 +318,8 @@
     <chordSymbolAFrameRound>0</chordSymbolAFrameRound>
     <chordSymbolAFrameFgColor r="0" g="0" b="0" a="255"/>
     <chordSymbolAFrameBgColor r="255" g="255" b="255" a="0"/>
-    <chordSymbolBFontFace>MuseJazz Text</chordSymbolBFontFace>
-    <chordSymbolBFontSize>12</chordSymbolBFontSize>
+    <chordSymbolBFontFace>Edwin</chordSymbolBFontFace>
+    <chordSymbolBFontSize>10</chordSymbolBFontSize>
     <chordSymbolBLineSpacing>1</chordSymbolBLineSpacing>
     <chordSymbolBFontSpatiumDependent>1</chordSymbolBFontSpatiumDependent>
     <chordSymbolBFontStyle>2</chordSymbolBFontStyle>
@@ -352,6 +357,7 @@
     <nashvilleNumberFrameRound>0</nashvilleNumberFrameRound>
     <nashvilleNumberFrameFgColor r="0" g="0" b="0" a="255"/>
     <nashvilleNumberFrameBgColor r="255" g="255" b="255" a="0"/>
+    <displayCapoChords>0</displayCapoChords>
     <capoPosition>0</capoPosition>
     <fretNumMag>2</fretNumMag>
     <fretNumPos>0</fretNumPos>
@@ -367,8 +373,8 @@
     <fretStringSpacing>0.7</fretStringSpacing>
     <fretFretSpacing>0.7</fretFretSpacing>
     <fretOrientation>0</fretOrientation>
-    <maxFretShiftAbove>3</maxFretShiftAbove>
-    <maxFretShiftBelow>3</maxFretShiftBelow>
+    <maxFretShiftAbove>0</maxFretShiftAbove>
+    <maxFretShiftBelow>0</maxFretShiftBelow>
     <fretNutThickness>0.3</fretNutThickness>
     <fretUseCustomSuffix>0</fretUseCustomSuffix>
     <fretCustomSuffix>fr</fretCustomSuffix>
@@ -379,7 +385,7 @@
     <showPageNumber>1</showPageNumber>
     <showPageNumberOne>0</showPageNumberOne>
     <pageNumberOddEven>1</pageNumberOddEven>
-    <showMeasureNumber>0</showMeasureNumber>
+    <showMeasureNumber>1</showMeasureNumber>
     <showMeasureNumberOne>0</showMeasureNumberOne>
     <measureNumberInterval>5</measureNumberInterval>
     <measureNumberSystem>1</measureNumberSystem>
@@ -409,9 +415,9 @@
     <lowerCaseMinorChords>0</lowerCaseMinorChords>
     <lowerCaseBassNotes>0</lowerCaseBassNotes>
     <allCapsNoteNames>0</allCapsNoteNames>
-    <chordStyle>jazz</chordStyle>
+    <chordStyle>std</chordStyle>
     <chordsXmlFile>0</chordsXmlFile>
-    <chordDescriptionFile>chords_jazz.xml</chordDescriptionFile>
+    <chordDescriptionFile>chords_std.xml</chordDescriptionFile>
     <chordExtensionMag>1</chordExtensionMag>
     <chordExtensionAdjust>0</chordExtensionAdjust>
     <chordModifierMag>1</chordModifierMag>
@@ -429,7 +435,7 @@
     <concertPitch>0</concertPitch>
     <multiVoiceRestTwoSpaceOffset>0</multiVoiceRestTwoSpaceOffset>
     <mergeMatchingRests>0</mergeMatchingRests>
-    <createMultiMeasureRests>1</createMultiMeasureRests>
+    <createMultiMeasureRests>0</createMultiMeasureRests>
     <minEmptyMeasures>1</minEmptyMeasures>
     <singleMeasureMMRestUseNormalRest>1</singleMeasureMMRestUseNormalRest>
     <singleMeasureMMRestShowNumber>1</singleMeasureMMRestShowNumber>
@@ -449,7 +455,7 @@
     <mmRestOldStyleSpacing>0.85</mmRestOldStyleSpacing>
     <hideEmptyStaves>0</hideEmptyStaves>
     <dontHideStavesInFirstSystem>1</dontHideStavesInFirstSystem>
-    <enableIndentationOnFirstSystem>0</enableIndentationOnFirstSystem>
+    <enableIndentationOnFirstSystem>1</enableIndentationOnFirstSystem>
     <firstSystemIndentationValue>5</firstSystemIndentationValue>
     <alwaysShowBracketsWhenEmptyStavesAreHidden>0</alwaysShowBracketsWhenEmptyStavesAreHidden>
     <alwaysShowSquareBracketsWhenEmptyStavesAreHidden>0</alwaysShowSquareBracketsWhenEmptyStavesAreHidden>
@@ -466,8 +472,11 @@
     <arpeggioLineWidth>0.18</arpeggioLineWidth>
     <arpeggioHookLen>0.8</arpeggioHookLen>
     <arpeggioHiddenInStdIfTab>0</arpeggioHiddenInStdIfTab>
-    <slurEndWidth>0.12</slurEndWidth>
-    <slurMidWidth>0.25</slurMidWidth>
+    <chordBracketNoteDistance>0.15</chordBracketNoteDistance>
+    <chordBracketLineWidth>0.1</chordBracketLineWidth>
+    <chordBracketHookLen>0.7</chordBracketHookLen>
+    <slurEndWidth>0.05</slurEndWidth>
+    <slurMidWidth>0.21</slurMidWidth>
     <slurDottedWidth>0.1</slurDottedWidth>
     <angleHangingSlursAwayFromStaff>0</angleHangingSlursAwayFromStaff>
     <tieEndWidth>0.05</tieEndWidth>
@@ -491,8 +500,8 @@
     <minLaissezVibLength>2</minLaissezVibLength>
     <laissezVibUseSmuflSym>0</laissezVibUseSmuflSym>
     <sectionPause>3</sectionPause>
-    <musicalSymbolFont>MuseJazz</musicalSymbolFont>
-    <musicalTextFont>MuseJazz Text</musicalTextFont>
+    <musicalSymbolFont>Leland</musicalSymbolFont>
+    <musicalTextFont>Leland Text</musicalTextFont>
     <showHeader>1</showHeader>
     <headerFirstPage>0</headerFirstPage>
     <headerOddEven>1</headerOddEven>
@@ -511,13 +520,13 @@
     <oddFooterL></oddFooterL>
     <oddFooterC>$C</oddFooterC>
     <oddFooterR></oddFooterR>
-    <voltaPosAbove x="-0.6" y="-5.6"/>
+    <voltaPosAbove x="0" y="-3"/>
     <voltaHook>2.2</voltaHook>
-    <voltaLineWidth>0.2</voltaLineWidth>
+    <voltaLineWidth>0.11</voltaLineWidth>
     <voltaLineStyle>solid</voltaLineStyle>
     <voltaDashLineLen>5</voltaDashLineLen>
     <voltaDashGapLen>5</voltaDashGapLen>
-    <voltaFontFace>MuseJazz Text</voltaFontFace>
+    <voltaFontFace>Edwin</voltaFontFace>
     <voltaFontSize>11</voltaFontSize>
     <voltaLineSpacing>1</voltaLineSpacing>
     <voltaFontSpatiumDependent>1</voltaFontSpatiumDependent>
@@ -568,12 +577,12 @@
     <ottavaPosBelow x="0" y="2"/>
     <ottavaHookAbove>1</ottavaHookAbove>
     <ottavaHookBelow>1</ottavaHookBelow>
-    <ottavaLineWidth>0.2</ottavaLineWidth>
+    <ottavaLineWidth>0.11</ottavaLineWidth>
     <ottavaLineStyle>dashed</ottavaLineStyle>
     <ottavaDashLineLen>6</ottavaDashLineLen>
     <ottavaDashGapLen>6</ottavaDashGapLen>
     <ottavaNumbersOnly>1</ottavaNumbersOnly>
-    <ottavaFontFace>MuseJazz Text</ottavaFontFace>
+    <ottavaFontFace>Edwin</ottavaFontFace>
     <ottavaFontSize>10</ottavaFontSize>
     <ottavaLineSpacing>1</ottavaLineSpacing>
     <ottavaFontSpatiumDependent>1</ottavaFontSpatiumDependent>
@@ -601,6 +610,7 @@
     <linearStretch>1.5</linearStretch>
     <crossMeasureValues>0</crossMeasureValues>
     <keySigNaturals>0</keySigNaturals>
+    <keySigShowNaturalsChangingSharpsFlats>1</keySigShowNaturalsChangingSharpsFlats>
     <tupletMaxSlope>0.5</tupletMaxSlope>
     <tupletOutOfStaff>1</tupletOutOfStaff>
     <tupletVHeadDistance>0.5</tupletVHeadDistance>
@@ -609,11 +619,11 @@
     <tupletStemRightDistance>0.5</tupletStemRightDistance>
     <tupletNoteLeftDistance>0</tupletNoteLeftDistance>
     <tupletNoteRightDistance>0</tupletNoteRightDistance>
-    <tupletBracketWidth>0.2</tupletBracketWidth>
+    <tupletBracketWidth>0.1</tupletBracketWidth>
     <tupletDirection>0</tupletDirection>
     <tupletNumberType>0</tupletNumberType>
     <tupletBracketType>0</tupletBracketType>
-    <tupletFontFace>MuseJazz Text</tupletFontFace>
+    <tupletFontFace>Edwin</tupletFontFace>
     <tupletFontSize>9</tupletFontSize>
     <tupletLineSpacing>1</tupletLineSpacing>
     <tupletFontSpatiumDependent>1</tupletFontSpatiumDependent>
@@ -652,7 +662,6 @@
     <snapToDynamics>1</snapToDynamics>
     <centerOnNotehead>1</centerOnNotehead>
     <dynamicsMinDistance>0.5</dynamicsMinDistance>
-    <autoplaceVerticalAlignRange>2</autoplaceVerticalAlignRange>
     <textLinePlacement>0</textLinePlacement>
     <textLinePosAbove x="0" y="-1"/>
     <textLinePosBelow x="0" y="1"/>
@@ -686,7 +695,7 @@
     <tremoloBarLineWidth>0.12</tremoloBarLineWidth>
     <jumpPosAbove x="0" y="-2"/>
     <markerPosAbove x="0" y="-2"/>
-    <defaultFontFace>MuseJazz Text</defaultFontFace>
+    <defaultFontFace>Edwin</defaultFontFace>
     <defaultFontSize>10</defaultFontSize>
     <defaultLineSpacing>1</defaultLineSpacing>
     <defaultFontSpatiumDependent>1</defaultFontSpatiumDependent>
@@ -704,8 +713,8 @@
     <defaultSystemFlag>0</defaultSystemFlag>
     <defaultText></defaultText>
     <defaultPosition>left</defaultPosition>
-    <titleFontFace>MuseJazz Text</titleFontFace>
-    <titleFontSize>28</titleFontSize>
+    <titleFontFace>Edwin</titleFontFace>
+    <titleFontSize>22</titleFontSize>
     <titleLineSpacing>1</titleLineSpacing>
     <titleFontSpatiumDependent>0</titleFontSpatiumDependent>
     <titleFontStyle>0</titleFontStyle>
@@ -720,7 +729,7 @@
     <titleFrameFgColor r="0" g="0" b="0" a="255"/>
     <titleFrameBgColor r="255" g="255" b="255" a="0"/>
     <titlePosition>center</titlePosition>
-    <subTitleFontFace>MuseJazz Text</subTitleFontFace>
+    <subTitleFontFace>Edwin</subTitleFontFace>
     <subTitleFontSize>14</subTitleFontSize>
     <subTitleLineSpacing>1</subTitleLineSpacing>
     <subTitleFontSpatiumDependent>0</subTitleFontSpatiumDependent>
@@ -736,7 +745,7 @@
     <subTitleFrameFgColor r="0" g="0" b="0" a="255"/>
     <subTitleFrameBgColor r="255" g="255" b="255" a="0"/>
     <subTitlePosition>center</subTitlePosition>
-    <composerFontFace>MuseJazz Text</composerFontFace>
+    <composerFontFace>Edwin</composerFontFace>
     <composerFontSize>10</composerFontSize>
     <composerLineSpacing>1</composerLineSpacing>
     <composerFontSpatiumDependent>0</composerFontSpatiumDependent>
@@ -752,7 +761,7 @@
     <composerFrameFgColor r="0" g="0" b="0" a="255"/>
     <composerFrameBgColor r="255" g="255" b="255" a="0"/>
     <composerPosition>right</composerPosition>
-    <lyricistFontFace>MuseJazz Text</lyricistFontFace>
+    <lyricistFontFace>Edwin</lyricistFontFace>
     <lyricistFontSize>10</lyricistFontSize>
     <lyricistLineSpacing>1</lyricistLineSpacing>
     <lyricistFontSpatiumDependent>0</lyricistFontSpatiumDependent>
@@ -768,7 +777,7 @@
     <lyricistFrameFgColor r="0" g="0" b="0" a="255"/>
     <lyricistFrameBgColor r="255" g="255" b="255" a="0"/>
     <lyricistPosition>left</lyricistPosition>
-    <fingeringFontFace>MuseJazz Text</fingeringFontFace>
+    <fingeringFontFace>Edwin</fingeringFontFace>
     <fingeringFontSize>8</fingeringFontSize>
     <fingeringLineSpacing>1</fingeringLineSpacing>
     <fingeringFontSpatiumDependent>1</fingeringFontSpatiumDependent>
@@ -797,7 +806,7 @@
     <tabFretNumberFrameRound>0</tabFretNumberFrameRound>
     <tabFretNumberFrameFgColor r="0" g="0" b="0" a="255"/>
     <tabFretNumberFrameBgColor r="255" g="255" b="255" a="0"/>
-    <lhGuitarFingeringFontFace>MuseJazz Text</lhGuitarFingeringFontFace>
+    <lhGuitarFingeringFontFace>Edwin</lhGuitarFingeringFontFace>
     <lhGuitarFingeringFontSize>8</lhGuitarFingeringFontSize>
     <lhGuitarFingeringLineSpacing>1</lhGuitarFingeringLineSpacing>
     <lhGuitarFingeringFontSpatiumDependent>1</lhGuitarFingeringFontSpatiumDependent>
@@ -812,7 +821,7 @@
     <lhGuitarFingeringFrameBgColor r="255" g="255" b="255" a="0"/>
     <lhGuitarFingeringOffset x="-0.5" y="0"/>
     <lhGuitarFingeringPosition>right</lhGuitarFingeringPosition>
-    <rhGuitarFingeringFontFace>MuseJazz Text</rhGuitarFingeringFontFace>
+    <rhGuitarFingeringFontFace>Edwin</rhGuitarFingeringFontFace>
     <rhGuitarFingeringFontSize>8</rhGuitarFingeringFontSize>
     <rhGuitarFingeringLineSpacing>1</rhGuitarFingeringLineSpacing>
     <rhGuitarFingeringFontSpatiumDependent>1</rhGuitarFingeringFontSpatiumDependent>
@@ -855,7 +864,7 @@
     <lhTappingSlurTopAndBottomNoteOnTab>1</lhTappingSlurTopAndBottomNoteOnTab>
     <rhTappingSymbolNormalStave>plus</rhTappingSymbolNormalStave>
     <rhTappingSymbolTab>T</rhTappingSymbolTab>
-    <stringNumberFontFace>MuseJazz Text</stringNumberFontFace>
+    <stringNumberFontFace>Edwin</stringNumberFontFace>
     <stringNumberFontSize>8</stringNumberFontSize>
     <stringNumberLineSpacing>1</stringNumberLineSpacing>
     <stringNumberFontSpatiumDependent>1</stringNumberFontSpatiumDependent>
@@ -870,7 +879,6 @@
     <stringNumberFrameBgColor r="255" g="255" b="255" a="0"/>
     <stringNumberOffset x="0" y="0"/>
     <stringNumberPosition>center</stringNumberPosition>
-    <preferSameStringForTranspose>0</preferSameStringForTranspose>
     <stringTuningsFontSize>9</stringTuningsFontSize>
     <harpPedalDiagramFontFace>Edwin</harpPedalDiagramFontFace>
     <harpPedalDiagramFontSize>10</harpPedalDiagramFontSize>
@@ -926,7 +934,7 @@
     <articulationFrameBgColor r="255" g="255" b="255" a="0"/>
     <articulationOffset x="0" y="0"/>
     <articulationPosition>left</articulationPosition>
-    <longInstrumentFontFace>MuseJazz Text</longInstrumentFontFace>
+    <longInstrumentFontFace>Edwin</longInstrumentFontFace>
     <longInstrumentFontSize>10</longInstrumentFontSize>
     <longInstrumentLineSpacing>1</longInstrumentLineSpacing>
     <longInstrumentFontSpatiumDependent>1</longInstrumentFontSpatiumDependent>
@@ -941,7 +949,7 @@
     <longInstrumentFrameFgColor r="0" g="0" b="0" a="255"/>
     <longInstrumentFrameBgColor r="255" g="255" b="255" a="0"/>
     <longInstrumentPosition>right</longInstrumentPosition>
-    <shortInstrumentFontFace>MuseJazz Text</shortInstrumentFontFace>
+    <shortInstrumentFontFace>Edwin</shortInstrumentFontFace>
     <shortInstrumentFontSize>10</shortInstrumentFontSize>
     <shortInstrumentLineSpacing>1</shortInstrumentLineSpacing>
     <shortInstrumentFontSpatiumDependent>1</shortInstrumentFontSpatiumDependent>
@@ -956,7 +964,7 @@
     <shortInstrumentFrameFgColor r="0" g="0" b="0" a="255"/>
     <shortInstrumentFrameBgColor r="255" g="255" b="255" a="0"/>
     <shortInstrumentPosition>right</shortInstrumentPosition>
-    <partInstrumentFontFace>MuseJazz Text</partInstrumentFontFace>
+    <partInstrumentFontFace>Edwin</partInstrumentFontFace>
     <partInstrumentFontSize>14</partInstrumentFontSize>
     <partInstrumentLineSpacing>1</partInstrumentLineSpacing>
     <partInstrumentFontSpatiumDependent>0</partInstrumentFontSpatiumDependent>
@@ -971,7 +979,7 @@
     <partInstrumentFrameFgColor r="0" g="0" b="0" a="255"/>
     <partInstrumentFrameBgColor r="255" g="255" b="255" a="0"/>
     <partInstrumentPosition>left</partInstrumentPosition>
-    <dynamicsFontFace>MuseJazz Text</dynamicsFontFace>
+    <dynamicsFontFace>Edwin</dynamicsFontFace>
     <dynamicsFontSize>10</dynamicsFontSize>
     <dynamicsLineSpacing>1</dynamicsLineSpacing>
     <dynamicsFontSpatiumDependent>1</dynamicsFontSpatiumDependent>
@@ -985,7 +993,7 @@
     <dynamicsFrameFgColor r="0" g="0" b="0" a="255"/>
     <dynamicsFrameBgColor r="255" g="255" b="255" a="0"/>
     <dynamicsPosition>center</dynamicsPosition>
-    <expressionFontFace>MuseJazz Text</expressionFontFace>
+    <expressionFontFace>Edwin</expressionFontFace>
     <expressionFontSize>10</expressionFontSize>
     <expressionLineSpacing>1</expressionLineSpacing>
     <expressionFontSpatiumDependent>1</expressionFontSpatiumDependent>
@@ -1004,7 +1012,7 @@
     <expressionFrameBgColor r="255" g="255" b="255" a="0"/>
     <expressionMinDistance>0.5</expressionMinDistance>
     <expressionPosition>left</expressionPosition>
-    <tempoFontFace>MuseJazz Text</tempoFontFace>
+    <tempoFontFace>Edwin</tempoFontFace>
     <tempoFontSize>12</tempoFontSize>
     <tempoLineSpacing>1</tempoLineSpacing>
     <tempoFontSpatiumDependent>1</tempoFontSpatiumDependent>
@@ -1046,7 +1054,7 @@
     <tempoChangeLineStyle>dashed</tempoChangeLineStyle>
     <tempoChangeDashLineLen>6</tempoChangeDashLineLen>
     <tempoChangeDashGapLen>9</tempoChangeDashGapLen>
-    <metronomeFontFace>MuseJazz Text</metronomeFontFace>
+    <metronomeFontFace>Edwin</metronomeFontFace>
     <metronomeFontSize>12</metronomeFontSize>
     <metronomeLineSpacing>1</metronomeLineSpacing>
     <metronomeFontSpatiumDependent>0</metronomeFontSpatiumDependent>
@@ -1062,7 +1070,7 @@
     <metronomeFrameFgColor r="0" g="0" b="0" a="255"/>
     <metronomeFrameBgColor r="255" g="255" b="255" a="0"/>
     <metronomePosition>left</metronomePosition>
-    <measureNumberFontFace>MuseJazz Text</measureNumberFontFace>
+    <measureNumberFontFace>Edwin</measureNumberFontFace>
     <measureNumberFontSize>8</measureNumberFontSize>
     <measureNumberLineSpacing>1</measureNumberLineSpacing>
     <measureNumberFontSpatiumDependent>0</measureNumberFontSpatiumDependent>
@@ -1094,7 +1102,7 @@
     <measureNumberAlternatePosAbove x="0" y="-4"/>
     <measureNumberAlternatePosBelow x="0" y="4"/>
     <measureNumberAlternateFrameType>1</measureNumberAlternateFrameType>
-    <measureNumberAlternateFramePadding>0.3</measureNumberAlternateFramePadding>
+    <measureNumberAlternateFramePadding>0.2</measureNumberAlternateFramePadding>
     <measureNumberAlternateFrameWidth>0.1</measureNumberAlternateFrameWidth>
     <measureNumberAlternateFrameRound>0</measureNumberAlternateFrameRound>
     <measureNumberAlternateFrameFgColor r="0" g="0" b="0" a="255"/>
@@ -1122,7 +1130,7 @@
     <mmRestRangePosition>center</mmRestRangePosition>
     <mmRestRangeMinDistance>0.5</mmRestRangeMinDistance>
     <mmRestRangeTextStyle>mmrest_range</mmRestRangeTextStyle>
-    <translatorFontFace>MuseJazz Text</translatorFontFace>
+    <translatorFontFace>Edwin</translatorFontFace>
     <translatorFontSize>10</translatorFontSize>
     <translatorLineSpacing>1</translatorLineSpacing>
     <translatorFontSpatiumDependent>0</translatorFontSpatiumDependent>
@@ -1137,7 +1145,7 @@
     <translatorFrameFgColor r="0" g="0" b="0" a="255"/>
     <translatorFrameBgColor r="255" g="255" b="255" a="0"/>
     <translatorPosition>left</translatorPosition>
-    <systemTextFontFace>MuseJazz Text</systemTextFontFace>
+    <systemTextFontFace>Edwin</systemTextFontFace>
     <systemTextFontSize>10</systemTextFontSize>
     <systemTextLineSpacing>1</systemTextLineSpacing>
     <systemTextFontSpatiumDependent>1</systemTextFontSpatiumDependent>
@@ -1156,7 +1164,7 @@
     <systemTextFrameFgColor r="0" g="0" b="0" a="255"/>
     <systemTextFrameBgColor r="255" g="255" b="255" a="0"/>
     <systemTextPosition>left</systemTextPosition>
-    <staffTextFontFace>MuseJazz Text</staffTextFontFace>
+    <staffTextFontFace>Edwin</staffTextFontFace>
     <staffTextFontSize>10</staffTextFontSize>
     <staffTextLineSpacing>1</staffTextLineSpacing>
     <staffTextFontSpatiumDependent>1</staffTextFontSpatiumDependent>
@@ -1164,7 +1172,7 @@
     <staffTextColor r="0" g="0" b="0" a="255"/>
     <staffTextAlign>left,baseline</staffTextAlign>
     <staffTextOffsetType>1</staffTextOffsetType>
-    <staffTextPlacement>1</staffTextPlacement>
+    <staffTextPlacement>0</staffTextPlacement>
     <staffTextPosAbove x="0" y="-1"/>
     <staffTextPosBelow x="0" y="2.5"/>
     <staffTextMinDistance>0.5</staffTextMinDistance>
@@ -1205,13 +1213,13 @@
     <fretDiagramFretNumberFrameFgColor r="0" g="0" b="0" a="255"/>
     <fretDiagramFretNumberFrameBgColor r="255" g="255" b="255" a="0"/>
     <fretDiagramFretNumberPosition>left</fretDiagramFretNumberPosition>
-    <rehearsalMarkFontFace>MuseJazz Text</rehearsalMarkFontFace>
+    <rehearsalMarkFontFace>Edwin</rehearsalMarkFontFace>
     <rehearsalMarkFontSize>14</rehearsalMarkFontSize>
     <rehearsalMarkLineSpacing>1</rehearsalMarkLineSpacing>
     <rehearsalMarkFontSpatiumDependent>1</rehearsalMarkFontSpatiumDependent>
     <rehearsalMarkFontStyle>1</rehearsalMarkFontStyle>
     <rehearsalMarkColor r="0" g="0" b="0" a="255"/>
-    <rehearsalMarkAlign>right,baseline</rehearsalMarkAlign>
+    <rehearsalMarkAlign>center,baseline</rehearsalMarkAlign>
     <rehearsalMarkFrameType>1</rehearsalMarkFrameType>
     <rehearsalMarkFramePadding>0.5</rehearsalMarkFramePadding>
     <rehearsalMarkFrameWidth>0.16</rehearsalMarkFrameWidth>
@@ -1241,7 +1249,7 @@
     <repeatPlayCountPosAbove x="0" y="-2"/>
     <repeatPlayCountPosBelow x="0" y="4"/>
     <repeatPlayCountMinDistance>0.5</repeatPlayCountMinDistance>
-    <repeatLeftFontFace>MuseJazz Text</repeatLeftFontFace>
+    <repeatLeftFontFace>Edwin</repeatLeftFontFace>
     <repeatLeftFontSize>10</repeatLeftFontSize>
     <repeatLeftLineSpacing>1</repeatLeftLineSpacing>
     <repeatLeftFontSpatiumDependent>1</repeatLeftFontSpatiumDependent>
@@ -1256,7 +1264,7 @@
     <repeatLeftFrameFgColor r="0" g="0" b="0" a="255"/>
     <repeatLeftFrameBgColor r="255" g="255" b="255" a="0"/>
     <repeatLeftPosition>left</repeatLeftPosition>
-    <repeatRightFontFace>MuseJazz Text</repeatRightFontFace>
+    <repeatRightFontFace>Edwin</repeatRightFontFace>
     <repeatRightFontSize>10</repeatRightFontSize>
     <repeatRightLineSpacing>1</repeatRightLineSpacing>
     <repeatRightFontSpatiumDependent>1</repeatRightFontSpatiumDependent>
@@ -1271,7 +1279,7 @@
     <repeatRightFrameFgColor r="0" g="0" b="0" a="255"/>
     <repeatRightFrameBgColor r="255" g="255" b="255" a="0"/>
     <repeatRightPosition>right</repeatRightPosition>
-    <frameFontFace>MuseJazz Text</frameFontFace>
+    <frameFontFace>Edwin</frameFontFace>
     <frameFontSize>10</frameFontSize>
     <frameLineSpacing>1</frameLineSpacing>
     <frameFontSpatiumDependent>0</frameFontSpatiumDependent>
@@ -1286,7 +1294,7 @@
     <frameFrameFgColor r="0" g="0" b="0" a="255"/>
     <frameFrameBgColor r="255" g="255" b="255" a="0"/>
     <framePosition>left</framePosition>
-    <textLineFontFace>MuseJazz Text</textLineFontFace>
+    <textLineFontFace>Edwin</textLineFontFace>
     <textLineFontSize>10</textLineFontSize>
     <textLineLineSpacing>1</textLineLineSpacing>
     <textLineFontSpatiumDependent>1</textLineFontSpatiumDependent>
@@ -1296,6 +1304,7 @@
     <textLineSystemFlag>0</textLineSystemFlag>
     <systemTextLineFontFace>Edwin</systemTextLineFontFace>
     <systemTextLineFontSize>10</systemTextLineFontSize>
+    <systemTextLineLineSpacing>1</systemTextLineLineSpacing>
     <systemTextLineFontSpatiumDependent>1</systemTextLineFontSpatiumDependent>
     <systemTextLineFontStyle>0</systemTextLineFontStyle>
     <systemTextLineColor r="0" g="0" b="0" a="255"/>
@@ -1321,7 +1330,7 @@
     <noteLineStyle>solid</noteLineStyle>
     <noteLineDashLineLen>5</noteLineDashLineLen>
     <noteLineDashGapLen>5</noteLineDashGapLen>
-    <glissandoFontFace>MuseJazz Text</glissandoFontFace>
+    <glissandoFontFace>Edwin</glissandoFontFace>
     <glissandoFontSize>8</glissandoFontSize>
     <glissandoLineSpacing>1</glissandoLineSpacing>
     <glissandoFontSpatiumDependent>1</glissandoFontSpatiumDependent>
@@ -1345,7 +1354,7 @@
     <glissandoDashLineLen>5</glissandoDashLineLen>
     <glissandoDashGapLen>5</glissandoDashGapLen>
     <glissandoShowText>1</glissandoShowText>
-    <bendFontFace>MuseJazz Text</bendFontFace>
+    <bendFontFace>Edwin</bendFontFace>
     <bendFontSize>8</bendFontSize>
     <bendLineSpacing>1</bendLineSpacing>
     <bendFontSpatiumDependent>1</bendFontSpatiumDependent>
@@ -1370,7 +1379,13 @@
     <guitarBendArrowWidth>1</guitarBendArrowWidth>
     <guitarBendArrowHeight>1</guitarBendArrowHeight>
     <useCueSizeFretForGraceBends>0</useCueSizeFretForGraceBends>
-    <headerFontFace>MuseJazz Text</headerFontFace>
+    <showFretOnFullBendRelease>1</showFretOnFullBendRelease>
+    <alignPreBendAndPreDiveToGraceNote>0</alignPreBendAndPreDiveToGraceNote>
+    <useFractionCharacters>1</useFractionCharacters>
+    <guitarDivesAboveStaff>0</guitarDivesAboveStaff>
+    <guitarDiveLineWidth>0.13</guitarDiveLineWidth>
+    <guitarDiveLineWidthTab>0.15</guitarDiveLineWidthTab>
+    <headerFontFace>Edwin</headerFontFace>
     <headerFontSize>9</headerFontSize>
     <headerLineSpacing>1</headerLineSpacing>
     <headerFontSpatiumDependent>0</headerFontSpatiumDependent>
@@ -1385,7 +1400,7 @@
     <headerFrameFgColor r="0" g="0" b="0" a="255"/>
     <headerFrameBgColor r="255" g="255" b="255" a="0"/>
     <headerPosition>center</headerPosition>
-    <footerFontFace>MuseJazz Text</footerFontFace>
+    <footerFontFace>Edwin</footerFontFace>
     <footerFontSize>9</footerFontSize>
     <footerLineSpacing>1</footerLineSpacing>
     <footerFontSpatiumDependent>0</footerFontSpatiumDependent>
@@ -1430,7 +1445,7 @@
     <pageNumberFrameFgColor r="0" g="0" b="0" a="255"/>
     <pageNumberFrameBgColor r="255" g="255" b="255" a="0"/>
     <pageNumberPosition>center</pageNumberPosition>
-    <instrumentChangeFontFace>MuseJazz Text</instrumentChangeFontFace>
+    <instrumentChangeFontFace>Edwin</instrumentChangeFontFace>
     <instrumentChangeFontSize>10</instrumentChangeFontSize>
     <instrumentChangeLineSpacing>1</instrumentChangeLineSpacing>
     <instrumentChangeFontSpatiumDependent>1</instrumentChangeFontSpatiumDependent>
@@ -1475,7 +1490,7 @@
     <figuredBassFontStyle>0</figuredBassFontStyle>
     <figuredBassColor r="0" g="0" b="0" a="255"/>
     <user1Name></user1Name>
-    <user1FontFace>MuseJazz Text</user1FontFace>
+    <user1FontFace>Edwin</user1FontFace>
     <user1FontSize>10</user1FontSize>
     <user1LineSpacing>1</user1LineSpacing>
     <user1FontSpatiumDependent>1</user1FontSpatiumDependent>
@@ -1492,7 +1507,7 @@
     <user1FrameBgColor r="255" g="255" b="255" a="0"/>
     <user1Position>left</user1Position>
     <user2Name></user2Name>
-    <user2FontFace>MuseJazz Text</user2FontFace>
+    <user2FontFace>Edwin</user2FontFace>
     <user2FontSize>10</user2FontSize>
     <user2LineSpacing>1</user2LineSpacing>
     <user2FontSpatiumDependent>1</user2FontSpatiumDependent>
@@ -1509,7 +1524,7 @@
     <user2FrameBgColor r="255" g="255" b="255" a="0"/>
     <user2Position>left</user2Position>
     <user3Name></user3Name>
-    <user3FontFace>MuseJazz Text</user3FontFace>
+    <user3FontFace>Edwin</user3FontFace>
     <user3FontSize>10</user3FontSize>
     <user3LineSpacing>1</user3LineSpacing>
     <user3FontSpatiumDependent>1</user3FontSpatiumDependent>
@@ -1526,7 +1541,7 @@
     <user3FrameBgColor r="255" g="255" b="255" a="0"/>
     <user3Position>left</user3Position>
     <user4Name></user4Name>
-    <user4FontFace>MuseJazz Text</user4FontFace>
+    <user4FontFace>Edwin</user4FontFace>
     <user4FontSize>10</user4FontSize>
     <user4LineSpacing>1</user4LineSpacing>
     <user4FontSpatiumDependent>1</user4FontSpatiumDependent>
@@ -1543,7 +1558,7 @@
     <user4FrameBgColor r="255" g="255" b="255" a="0"/>
     <user4Position>left</user4Position>
     <user5Name></user5Name>
-    <user5FontFace>MuseJazz Text</user5FontFace>
+    <user5FontFace>Edwin</user5FontFace>
     <user5FontSize>10</user5FontSize>
     <user5LineSpacing>1</user5LineSpacing>
     <user5FontSpatiumDependent>1</user5FontSpatiumDependent>
@@ -1560,7 +1575,7 @@
     <user5FrameBgColor r="255" g="255" b="255" a="0"/>
     <user5Position>left</user5Position>
     <user6Name></user6Name>
-    <user6FontFace>MuseJazz Text</user6FontFace>
+    <user6FontFace>Edwin</user6FontFace>
     <user6FontSize>10</user6FontSize>
     <user6LineSpacing>1</user6LineSpacing>
     <user6FontSpatiumDependent>1</user6FontSpatiumDependent>
@@ -1678,7 +1693,7 @@
     <user12FrameFgColor r="0" g="0" b="0" a="255"/>
     <user12FrameBgColor r="255" g="255" b="255" a="0"/>
     <user12Position>left</user12Position>
-    <letRingFontFace>MuseJazz Text</letRingFontFace>
+    <letRingFontFace>Edwin</letRingFontFace>
     <letRingFontSize>10</letRingFontSize>
     <letRingLineSpacing>1</letRingLineSpacing>
     <letRingFontSpatiumDependent>1</letRingFontSpatiumDependent>
@@ -1702,7 +1717,33 @@
     <letRingFrameBgColor r="255" g="255" b="255" a="0"/>
     <letRingPosition>left</letRingPosition>
     <letRingEndHookType>3</letRingEndHookType>
-    <palmMuteFontFace>MuseJazz Text</palmMuteFontFace>
+    <letRingOffset x="0" y="0"/>
+    <whammyBarFontFace>Edwin</whammyBarFontFace>
+    <whammyBarFontSize>10</whammyBarFontSize>
+    <whammyBarLineSpacing>1</whammyBarLineSpacing>
+    <whammyBarFontSpatiumDependent>1</whammyBarFontSpatiumDependent>
+    <whammyBarFontStyle>0</whammyBarFontStyle>
+    <whammyBarColor r="0" g="0" b="0" a="255"/>
+    <whammyBarTextAlign>left,center</whammyBarTextAlign>
+    <whammyBarHookHeight>0.6</whammyBarHookHeight>
+    <whammyBarPlacement>1</whammyBarPlacement>
+    <whammyBarPosAbove x="0" y="0"/>
+    <whammyBarPosBelow x="0" y="0"/>
+    <whammyBarLineWidth>0.11</whammyBarLineWidth>
+    <whammyBarLineStyle>dashed</whammyBarLineStyle>
+    <whammyBarDashLineLen>5</whammyBarDashLineLen>
+    <whammyBarDashGapLen>5</whammyBarDashGapLen>
+    <whammyBarText>w/bar</whammyBarText>
+    <whammyBarFrameType>0</whammyBarFrameType>
+    <whammyBarFramePadding>0.2</whammyBarFramePadding>
+    <whammyBarFrameWidth>0.1</whammyBarFrameWidth>
+    <whammyBarFrameRound>0</whammyBarFrameRound>
+    <whammyBarFrameFgColor r="0" g="0" b="0" a="255"/>
+    <whammyBarFrameBgColor r="255" g="255" b="255" a="0"/>
+    <whammyBarPosition>left</whammyBarPosition>
+    <whammyBarEndHookType>3</whammyBarEndHookType>
+    <whammyBarOffset x="0" y="0"/>
+    <palmMuteFontFace>Edwin</palmMuteFontFace>
     <palmMuteFontSize>10</palmMuteFontSize>
     <palmMuteLineSpacing>1</palmMuteLineSpacing>
     <palmMuteFontSpatiumDependent>1</palmMuteFontSpatiumDependent>
@@ -1726,6 +1767,7 @@
     <palmMuteFrameBgColor r="255" g="255" b="255" a="0"/>
     <palmMutePosition>left</palmMutePosition>
     <palmMuteEndHookType>3</palmMuteEndHookType>
+    <palmMuteOffset x="0" y="0"/>
     <fermataPosAbove x="0" y="-0.5"/>
     <fermataPosBelow x="0" y="0.5"/>
     <fermataMinDistance>0.4</fermataMinDistance>
@@ -1779,6 +1821,81 @@
     <tabFretPadding>0.1</tabFretPadding>
     <chordlineThickness>0.16</chordlineThickness>
     <dummyMusicalSymbolsScale>1</dummyMusicalSymbolsScale>
+    <dummyMusicalSymbolSize>12</dummyMusicalSymbolSize>
+    <articulationMusicalSymbolSize>8</articulationMusicalSymbolSize>
+    <bendMusicalSymbolSize>8</bendMusicalSymbolSize>
+    <chordSymbolAMusicalSymbolSize>10</chordSymbolAMusicalSymbolSize>
+    <chordSymbolBMusicalSymbolSize>10</chordSymbolBMusicalSymbolSize>
+    <composerMusicalSymbolSize>10</composerMusicalSymbolSize>
+    <copyrightMusicalSymbolSize>9</copyrightMusicalSymbolSize>
+    <defaultMusicalSymbolSize>10</defaultMusicalSymbolSize>
+    <dynamicsMusicalSymbolSize>10</dynamicsMusicalSymbolSize>
+    <expressionMusicalSymbolSize>10</expressionMusicalSymbolSize>
+    <figuredBassMusicalSymbolSize>8</figuredBassMusicalSymbolSize>
+    <fingeringMusicalSymbolSize>8</fingeringMusicalSymbolSize>
+    <footerMusicalSymbolSize>9</footerMusicalSymbolSize>
+    <frameMusicalSymbolSize>10</frameMusicalSymbolSize>
+    <fretDiagramFingeringMusicalSymbolSize>6</fretDiagramFingeringMusicalSymbolSize>
+    <fretDiagramFretNumberMusicalSymbolSize>6</fretDiagramFretNumberMusicalSymbolSize>
+    <glissandoMusicalSymbolSize>8</glissandoMusicalSymbolSize>
+    <hairpinMusicalSymbolSize>10</hairpinMusicalSymbolSize>
+    <hammerOnPullOffTappingMusicalSymbolSize>8</hammerOnPullOffTappingMusicalSymbolSize>
+    <harpPedalDiagramMusicalSymbolSize>10</harpPedalDiagramMusicalSymbolSize>
+    <harpPedalTextDiagramMusicalSymbolSize>8</harpPedalTextDiagramMusicalSymbolSize>
+    <headerMusicalSymbolSize>9</headerMusicalSymbolSize>
+    <instrumentChangeMusicalSymbolSize>10</instrumentChangeMusicalSymbolSize>
+    <letRingMusicalSymbolSize>10</letRingMusicalSymbolSize>
+    <lhGuitarFingeringMusicalSymbolSize>8</lhGuitarFingeringMusicalSymbolSize>
+    <longInstrumentMusicalSymbolSize>10</longInstrumentMusicalSymbolSize>
+    <lyricistMusicalSymbolSize>10</lyricistMusicalSymbolSize>
+    <lyricsEvenMusicalSymbolSize>10</lyricsEvenMusicalSymbolSize>
+    <lyricsOddMusicalSymbolSize>10</lyricsOddMusicalSymbolSize>
+    <measureNumberAlternateMusicalSymbolSize>10</measureNumberAlternateMusicalSymbolSize>
+    <measureNumberMusicalSymbolSize>8</measureNumberMusicalSymbolSize>
+    <metronomeMusicalSymbolSize>12</metronomeMusicalSymbolSize>
+    <mmRestRangeMusicalSymbolSize>8</mmRestRangeMusicalSymbolSize>
+    <nashvilleNumberMusicalSymbolSize>12</nashvilleNumberMusicalSymbolSize>
+    <noteLineMusicalSymbolSize>10</noteLineMusicalSymbolSize>
+    <ottavaMusicalSymbolSize>10</ottavaMusicalSymbolSize>
+    <pageNumberMusicalSymbolSize>11</pageNumberMusicalSymbolSize>
+    <palmMuteMusicalSymbolSize>10</palmMuteMusicalSymbolSize>
+    <whammyBarMusicalSymbolSize>10</whammyBarMusicalSymbolSize>
+    <partInstrumentMusicalSymbolSize>14</partInstrumentMusicalSymbolSize>
+    <pedalMusicalSymbolSize>10</pedalMusicalSymbolSize>
+    <rehearsalMarkMusicalSymbolSize>14</rehearsalMarkMusicalSymbolSize>
+    <repeatLeftMusicalSymbolSize>18</repeatLeftMusicalSymbolSize>
+    <repeatPlayCountMusicalSymbolSize>10</repeatPlayCountMusicalSymbolSize>
+    <repeatRightMusicalSymbolSize>18</repeatRightMusicalSymbolSize>
+    <rhGuitarFingeringMusicalSymbolSize>8</rhGuitarFingeringMusicalSymbolSize>
+    <romanNumeralMusicalSymbolSize>12</romanNumeralMusicalSymbolSize>
+    <shortInstrumentMusicalSymbolSize>10</shortInstrumentMusicalSymbolSize>
+    <staffTextMusicalSymbolSize>10</staffTextMusicalSymbolSize>
+    <stickingMusicalSymbolSize>10</stickingMusicalSymbolSize>
+    <stringNumberMusicalSymbolSize>8</stringNumberMusicalSymbolSize>
+    <stringTuningsMusicalSymbolSize>9</stringTuningsMusicalSymbolSize>
+    <subTitleMusicalSymbolSize>14</subTitleMusicalSymbolSize>
+    <systemTextLineMusicalSymbolSize>10</systemTextLineMusicalSymbolSize>
+    <systemTextMusicalSymbolSize>10</systemTextMusicalSymbolSize>
+    <tabFretNumberMusicalSymbolSize>9</tabFretNumberMusicalSymbolSize>
+    <tempoChangeMusicalSymbolSize>12</tempoChangeMusicalSymbolSize>
+    <tempoMusicalSymbolSize>20</tempoMusicalSymbolSize>
+    <textLineMusicalSymbolSize>10</textLineMusicalSymbolSize>
+    <titleMusicalSymbolSize>22</titleMusicalSymbolSize>
+    <translatorMusicalSymbolSize>10</translatorMusicalSymbolSize>
+    <tupletMusicalSymbolSize>9</tupletMusicalSymbolSize>
+    <user1MusicalSymbolSize>10</user1MusicalSymbolSize>
+    <user2MusicalSymbolSize>10</user2MusicalSymbolSize>
+    <user3MusicalSymbolSize>10</user3MusicalSymbolSize>
+    <user4MusicalSymbolSize>10</user4MusicalSymbolSize>
+    <user5MusicalSymbolSize>10</user5MusicalSymbolSize>
+    <user6MusicalSymbolSize>10</user6MusicalSymbolSize>
+    <user7MusicalSymbolSize>10</user7MusicalSymbolSize>
+    <user8MusicalSymbolSize>10</user8MusicalSymbolSize>
+    <user9MusicalSymbolSize>10</user9MusicalSymbolSize>
+    <user10MusicalSymbolSize>10</user10MusicalSymbolSize>
+    <user11MusicalSymbolSize>10</user11MusicalSymbolSize>
+    <user12MusicalSymbolSize>10</user12MusicalSymbolSize>
+    <voltaMusicalSymbolSize>11</voltaMusicalSymbolSize>
     <autoplaceEnabled>1</autoplaceEnabled>
     <defaultsVersion>400</defaultsVersion>
     <changesBeforeBarlineRepeats>1</changesBeforeBarlineRepeats>
@@ -1794,10 +1911,67 @@
     <showCourtesiesAfterCancellingOtherJumps>1</showCourtesiesAfterCancellingOtherJumps>
     <useParensOtherJumpCourtesiesAfterCancelling>1</useParensOtherJumpCourtesiesAfterCancelling>
     <smallParens>1</smallParens>
+    <harmonyParenUseSmuflSym>0</harmonyParenUseSmuflSym>
     <repeatPlayCountPreset>nx</repeatPlayCountPreset>
     <repeatPlayCountShow>1</repeatPlayCountShow>
     <repeatPlayCountShowSingleRepeats>0</repeatPlayCountShowSingleRepeats>
     <systemObjectsBelowBottomStaff>0</systemObjectsBelowBottomStaff>
-    <spatium>1.74978</spatium>
+    <gradualTempoChangeBeginLineArrowHeight>1</gradualTempoChangeBeginLineArrowHeight>
+    <gradualTempoChangeBeginLineArrowWidth>0.5</gradualTempoChangeBeginLineArrowWidth>
+    <gradualTempoChangeEndLineArrowHeight>1</gradualTempoChangeEndLineArrowHeight>
+    <gradualTempoChangeEndLineArrowWidth>0.5</gradualTempoChangeEndLineArrowWidth>
+    <hairpinBeginLineArrowHeight>1</hairpinBeginLineArrowHeight>
+    <hairpinBeginLineArrowWidth>0.5</hairpinBeginLineArrowWidth>
+    <hairpinEndLineArrowHeight>1</hairpinEndLineArrowHeight>
+    <hairpinEndLineArrowWidth>0.5</hairpinEndLineArrowWidth>
+    <noteLineBeginLineArrowHeight>1</noteLineBeginLineArrowHeight>
+    <noteLineBeginLineArrowWidth>0.5</noteLineBeginLineArrowWidth>
+    <noteLineEndLineArrowHeight>1</noteLineEndLineArrowHeight>
+    <noteLineEndLineArrowWidth>0.5</noteLineEndLineArrowWidth>
+    <ottavaBeginLineArrowHeight>1</ottavaBeginLineArrowHeight>
+    <ottavaBeginLineArrowWidth>0.5</ottavaBeginLineArrowWidth>
+    <ottavaEndLineArrowHeight>1</ottavaEndLineArrowHeight>
+    <ottavaEndLineArrowWidth>0.5</ottavaEndLineArrowWidth>
+    <pedalBeginLineArrowHeight>1</pedalBeginLineArrowHeight>
+    <pedalBeginLineArrowWidth>0.5</pedalBeginLineArrowWidth>
+    <pedalEndLineArrowHeight>1</pedalEndLineArrowHeight>
+    <pedalEndLineArrowWidth>0.5</pedalEndLineArrowWidth>
+    <textLineBeginLineArrowHeight>1</textLineBeginLineArrowHeight>
+    <textLineBeginLineArrowWidth>0.5</textLineBeginLineArrowWidth>
+    <textLineEndLineArrowHeight>1</textLineEndLineArrowHeight>
+    <textLineEndLineArrowWidth>0.5</textLineEndLineArrowWidth>
+    <palmMuteBeginLineArrowHeight>1</palmMuteBeginLineArrowHeight>
+    <palmMuteBeginLineArrowWidth>0.5</palmMuteBeginLineArrowWidth>
+    <palmMuteEndLineArrowHeight>1</palmMuteEndLineArrowHeight>
+    <palmMuteEndLineArrowWidth>0.5</palmMuteEndLineArrowWidth>
+    <gradualTempoChangeBeginFilledArrowHeight>1</gradualTempoChangeBeginFilledArrowHeight>
+    <gradualTempoChangeBeginFilledArrowWidth>0.85</gradualTempoChangeBeginFilledArrowWidth>
+    <gradualTempoChangeEndFilledArrowHeight>1</gradualTempoChangeEndFilledArrowHeight>
+    <gradualTempoChangeEndFilledArrowWidth>0.85</gradualTempoChangeEndFilledArrowWidth>
+    <hairpinBeginFilledArrowHeight>1</hairpinBeginFilledArrowHeight>
+    <hairpinBeginFilledArrowWidth>0.85</hairpinBeginFilledArrowWidth>
+    <hairpinEndFilledArrowHeight>1</hairpinEndFilledArrowHeight>
+    <hairpinEndFilledArrowWidth>0.85</hairpinEndFilledArrowWidth>
+    <noteLineBeginFilledArrowHeight>1</noteLineBeginFilledArrowHeight>
+    <noteLineBeginFilledArrowWidth>0.85</noteLineBeginFilledArrowWidth>
+    <noteLineEndFilledArrowHeight>1</noteLineEndFilledArrowHeight>
+    <noteLineEndFilledArrowWidth>0.85</noteLineEndFilledArrowWidth>
+    <ottavaBeginFilledArrowHeight>1</ottavaBeginFilledArrowHeight>
+    <ottavaBeginFilledArrowWidth>0.85</ottavaBeginFilledArrowWidth>
+    <ottavaEndFilledArrowHeight>1</ottavaEndFilledArrowHeight>
+    <ottavaEndFilledArrowWidth>0.85</ottavaEndFilledArrowWidth>
+    <pedalBeginFilledArrowHeight>1</pedalBeginFilledArrowHeight>
+    <pedalBeginFilledArrowWidth>0.85</pedalBeginFilledArrowWidth>
+    <pedalEndFilledArrowHeight>1</pedalEndFilledArrowHeight>
+    <pedalEndFilledArrowWidth>0.85</pedalEndFilledArrowWidth>
+    <textLineBeginFilledArrowHeight>1</textLineBeginFilledArrowHeight>
+    <textLineBeginFilledArrowWidth>0.85</textLineBeginFilledArrowWidth>
+    <textLineEndFilledArrowHeight>1</textLineEndFilledArrowHeight>
+    <textLineEndFilledArrowWidth>0.85</textLineEndFilledArrowWidth>
+    <palmMuteBeginFilledArrowHeight>1</palmMuteBeginFilledArrowHeight>
+    <palmMuteBeginFilledArrowWidth>0.85</palmMuteBeginFilledArrowWidth>
+    <palmMuteEndFilledArrowHeight>1</palmMuteEndFilledArrowHeight>
+    <palmMuteEndFilledArrowWidth>0.85</palmMuteEndFilledArrowWidth>
+    <spatium>1.75</spatium>
     </Style>
   </museScore>
