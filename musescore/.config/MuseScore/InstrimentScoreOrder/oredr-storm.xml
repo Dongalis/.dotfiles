@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<museScore>
+    <Order id="storm">
+        <name>Storm</name>
+        <instrument id="contrabass">
+            <family id="contrabasses">Basses</family>
+        </instrument>
+        <instrument id="double-bass">
+            <family id="contrabasses">Basses</family>
+        </instrument>
+        <instrument id="mellophone">
+            <family id="mellophones">Mellophones</family>
+        </instrument>
+        <soloists/>
+        <section id="vocals" barLineSpan="false" thinBrackets="false">
+            <family>voices</family>
+            <family>voice-groups</family>
+        </section>
+        <section id="woodwind" thinBrackets="false">
+            <family>flutes</family>
+            <family>saxophones</family>
+            <unsorted group="woodwinds"/>
+        </section>
+        <section id="trumpets" thinBrackets="false">
+            <family>trumpets</family>
+            <family>flugelhorns</family>
+        </section>
+        <section id="trombones" thinBrackets="false">
+            <family>trombones</family>
+        </section>
+        <section id="clarinets" thinBrackets="false">
+            <family>clarinets</family>
+        </section>
+        <section id="mellophones" thinBrackets="false">
+            <family>mellophones</family>
+        </section>
+        <unsorted/>
+        <section id="guitars" thinBrackets="false">
+            <family>guitars</family>
+        </section>
+        <family>keyboards</family>
+        <section id="basses">
+            <family>bass-guitars</family>
+            <family>contrabasses</family>
+        </section>
+        <family>drums</family>
+        <section id="pitched-percussion" thinBrackets="false">
+            <unsorted group="pitched-percussion"/>
+        </section>
+        <section id="percussion" thinBrackets="false">
+            <unsorted group="unpitched-percussion"/>
+        </section>
+    </Order>
+</museScore>
