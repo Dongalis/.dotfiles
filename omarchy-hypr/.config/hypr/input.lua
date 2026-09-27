@@ -3,14 +3,14 @@
 
 -- Keyboard layout and options.
 -- See https://wiki.hypr.land/Configuring/Basics/Variables/#input
--- hl.config({
---   input = {
+hl.config({
+  input = {
 --     -- Use multiple keyboard layouts and switch between them with Left Alt + Right Alt.
---     kb_layout = "us,dk,eu",
+    kb_layout = "us,sk",
 --     kb_options = "compose:caps,shift:both_capslock_cancel,grp:alts_toggle",
 --
 --     -- Use a specific keyboard variant if needed (e.g. intl for international keyboards).
---     kb_variant = "intl",
+    kb_variant = "intl,qwerty",
 --
 --     -- Change speed of keyboard repeat.
 --     repeat_rate = 40,
@@ -41,8 +41,8 @@
 --       -- Left-click-and-drag with three fingers.
 --       drag_3fg = 1,
 --     },
---   },
--- })
+  },
+})
 
 -- App-specific touchpad scroll speeds.
 -- o.window("(Alacritty|kitty|foot)", { scroll_touchpad = 1.5 })
